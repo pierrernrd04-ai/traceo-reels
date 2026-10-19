@@ -58,7 +58,7 @@ Au début de chaque exécution, installe-les :
 Puis lis le `SKILL.md` de chaque skill avant de t'en servir et applique-le (les scripts Python des dossiers tournent vraiment) :
 
 - **ig-reel** pour chaque nouvelle vidéo : écris 5 accroches à partir des 26 formules de `hooks.json`, classe-les avec
-  `python3 hookscore.py`, garde la meilleure (score ≥ 50, sinon réécris), puis `beats.py --target <durée>` pour caler le texte
+  `python3 hookscore.py`, garde la meilleure (vise ≥ 50 ; l'outil est calibré sur l'anglais, donc après 2 réécritures garde la meilleure même en dessous), puis `beats.py --target <durée>` pour caler le texte
   à l'écran seconde par seconde. Pas de voix off : le « script » est le texte à l'écran.
 - **ig-caption** pour chaque légende Instagram (`caption.py` doit passer sans alerte), en respectant la section 4.E.
 - **ig-human** sur tout texte publié (accroche, légende, titre et description YouTube) : `detect.py` doit passer.
