@@ -3,3 +3,8 @@ studio/fbprev/
 studio/apercus/
 studio/__pycache__/
 *.wav
+video-agent/edits/*/assets/
+video-agent/edits/*/frames/
+video-agent/edits/*/files/
+video-agent/.tmp/
+video-agent/.env

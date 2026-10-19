@@ -51,6 +51,32 @@ Une illustration (carte, ville, boucle) reste une illustration : écris « (Illu
 4. Rendu : `python3 render_wN.py 0 1 2 3` (environ 1 à 2 min par vidéo). Vérifie avec `ffprobe` : 2160×3840, piste audio présente.
 5. Copie les MP4 à la racine du dépôt sous le nom `traceo-wN-xx-sujet.mp4`.
 
+### Méthode 2 : le moteur de la formation « Editing IA » (skills Melvynx, dossier `studio/video-skills/`)
+
+Alterne avec la méthode 1 (une vidéo sur deux). Préparation, une fois par exécution :
+```
+cp -a studio/video-skills/. ~/.claude/skills/
+mkdir -p ~/.claude/skills/short-editing/engine/node_modules
+ln -sfn /opt/node-tools/node_modules/playwright-core ~/.claude/skills/short-editing/engine/node_modules/playwright-core
+export CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome
+SK=~/.claude/skills/short-editing
+```
+Lis `$SK/SKILL.md` et ses `references/` (design-system, scene-library, shorts-codes), et `~/.claude/skills/studio-script/SKILL.md`
+pour écrire le script (accroches notées, passe « humanize » française). Le projet est `video-agent/` à la racine du dépôt
+(style Traceo, voice.md, logo). Pas de prise de vue : mode **papier seul** (`silent: true`, `duration: 12 à 16`), exemple complet
+dans `video-agent/edits/short-meme-tour/source/spec.js`.
+```
+node $SK/engine/short.mjs init video-agent/edits/short-<slug>
+# écris source/spec.js (silent, layout.keys [[0,1920]], boards centrés entre y 600 et 1400, un changement toutes les 2 à 4 s, bed différent du précédent)
+node $SK/engine/short.mjs prepare video-agent/edits/short-<slug>
+node $SK/engine/short.mjs stills video-agent/edits/short-<slug> <5 ou 6 instants>   # regarde stills/contact.jpg avec Read, corrige
+node $SK/engine/short.mjs all video-agent/edits/short-<slug>                       # la ligne QC doit lire h264 1080 1920, -14 LUFS
+cp video-agent/edits/short-<slug>/output/short-<slug>.mp4 traceo-x<NN>-<slug>.mp4
+```
+La transcription (whisper) est indisponible dans ce cloud : pas de montage de prises filmées tant que Pierre n'en fournit pas
+avec un moyen de transcription. Si un connecteur **Treg** est disponible, `/insta-audit`, `/outliers` et `/publish` peuvent s'en servir
+(gratuit sur ses propres comptes) ; sinon garde Metricool et vidIQ.
+
 ## 3 bis. Les skills Instagram (obligatoires à chaque exécution)
 
 Au début de chaque exécution, installe-les :
