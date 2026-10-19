@@ -211,6 +211,31 @@
    "youtube": null,
    "pinterest": null,
    "resultats": {}
+  },
+  {
+   "id": "m1019-demain-pas-ici",
+   "fichier": "traceo-m1019-demain-pas-ici.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1019-demain-pas-ici.mp4",
+   "angle": "Menu du 19/10, s03 choisi par Pierre : « Demain, tu ne courras pas ici. » (mémoire des rues déjà proposées)",
+   "menu": "2026-10-19/s03",
+   "format": "1080x1920, 14 s, moteur short-editing, Instrument Serif, papier bleu froid, lit « enquete »",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 19/10",
+   "youtube": "2026-11-06T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w3-01-niveaux",
+   "fichier": "traceo-w3-01-niveaux.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w3-01-niveaux.mp4",
+   "angle": "Les niveaux du coureur (script s02 du menu du 19/10, non choisi) : même tour, autre sens, hasard, boucle neuve",
+   "menu": "2026-10-19/s02",
+   "format": "2160x3840, 16,4 s, méthode 1 (scenes_w3), FreeSans + Charter italique, sable et terracotta, UK garage",
+   "instagram": null,
+   "youtube": "2026-11-07T18:00",
+   "pinterest": null,
+   "resultats": {}
   }
  ],
  "journal": [
@@ -229,6 +254,73 @@
    "file": "pleine : IG 4/sem et YT ≥4/sem jusqu'au 08/11",
    "crees": 0,
    "pinterest": "non connecté"
+  },
+  {
+   "date": "2026-10-19 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 ; semaine du 12/10 : 2932 vues IG, 0 vue YT (aucun Short publié).",
+   "menu": "choix de Pierre : s03 → traceo-m1019-demain-pas-ici.mp4, YouTube 06/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
+   "crees": 2,
+   "stock_ig": [
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-20.json (11 scripts)"
   }
- ]
+ ],
+ "analyse": {
+  "date": "2026-10-19",
+  "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
+  "top": [
+   {
+    "reel": "12/10 12:31 sans légende",
+    "url": "https://www.instagram.com/reel/DeZARFoMaZf/",
+    "score": 14.3,
+    "vues": 222,
+    ">3s": 36.9
+   },
+   {
+    "reel": "09/10 19:25 sans légende",
+    "url": "https://www.instagram.com/reel/DeSQUocsxm9/",
+    "score": 10.9,
+    "vues": 148,
+    ">3s": 25.0
+   },
+   {
+    "reel": "13/10 « Niveau 1/2 » gaming",
+    "url": "https://www.instagram.com/reel/DecTUSKFbNa/",
+    "score": 4.0,
+    "vues": 305,
+    ">3s": 45.2
+   }
+  ],
+  "flop": [
+   {
+    "reel": "10/10 « Courir le soir »",
+    "score": 0,
+    ">3s": 12.5
+   },
+   {
+    "reel": "17/10 « Météo du coureur »",
+    "score": 0,
+    ">3s": 13.0
+   },
+   {
+    "reel": "11/10 « Départ : canapé »",
+    "score": 0,
+    ">3s": 15.8
+   }
+  ],
+  "note": "Aucune vidéo du registre n'est encore en ligne (première le 20/10). Meilleure rétention : 14/10 « 10 000 pas » (50,2 % >3 s), mais 0 partage."
+ },
+ "veille": {
+  "date": "2026-10-19",
+  "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
+  "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
+ },
+ "metricool_quota": {
+  "2026-10": "20/20 (plein)",
+  "2026-11": "18/20 (IG 10, YT 8) après les Shorts du 06/11 et du 07/11"
+ }
 }

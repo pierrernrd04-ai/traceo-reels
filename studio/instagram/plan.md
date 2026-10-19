@@ -14,3 +14,9 @@ DIM 25  repos, stories
 Stories : tous les jours, 3 à 5 écrans. Jeudi : boîte à questions « C'est quoi, ta boucle habituelle ? » + séquence offre (3 contexte, 1 offre, 1 preuve).
 Engagement : 20 min/jour avant de publier. Liste de 10 comptes à fournir (5 portée / 3 pairs / 2 clients potentiels).
 Manque : ce qui s'est passé cette semaine (chiffres pour samedi) ; liste des comptes.
+
+## Vérification du pilote (lun. 19/10, ig-plan)
+Programmé dans Metricool cette semaine : Reels mar 20 (18h, v01), mer 21 (10h, v03), ven 23 (10h, v04), sam 24 (10h, v02) = 4 Reels, rythme tenu.
+YouTube Shorts : un par jour du 20/10 au 05/11, puis 06/11 (m1019) et 07/11 (w3-01).
+Stock Instagram ni paru ni programmé : m1019-demain-pas-ici (en tête), x01-meme-tour, w3-01-niveaux.
+Bloquant : publication Instagram du menu impossible tant que traceo.io n'est pas connecté à vidIQ.
