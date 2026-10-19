@@ -61,6 +61,9 @@ F = {
     "cala_r": ("/usr/share/fonts/truetype/crosextra/Caladea-Regular.ttf", 0),
     "cursor_b": ("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrecursor-bold.otf", 0),
     "cursor_r": ("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrecursor-regular.otf", 0),
+    "free_b": ("/usr/share/fonts/truetype/freefont/FreeSansBold.ttf", 0),
+    "free_r": ("/usr/share/fonts/truetype/freefont/FreeSans.ttf", 0),
+    "charter_bi": ("/usr/share/fonts/type1/texlive-fonts-recommended/bchbi8a.pfb", 0),
 }
 
 
