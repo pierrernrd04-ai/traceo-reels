@@ -1,6 +1,6 @@
 # Pilote automatique Traceo (Instagram + YouTube Shorts + Pinterest)
 
-Ce fichier est le mode d'emploi de la tâche planifiée du lundi matin. Il décrit la boucle
+Ce fichier est le mode d'emploi de la tâche planifiée quotidienne. Il décrit la boucle
 **mesurer → analyser → repérer → créer → publier → noter**, avec uniquement des outils gratuits
 (Metricool, ce studio vidéo, ce dépôt GitHub). Tout ce qui suit s'applique à chaque exécution.
 
@@ -51,33 +51,61 @@ Une illustration (carte, ville, boucle) reste une illustration : écris « (Illu
 4. Rendu : `python3 render_wN.py 0 1 2 3` (environ 1 à 2 min par vidéo). Vérifie avec `ffprobe` : 2160×3840, piste audio présente.
 5. Copie les MP4 à la racine du dépôt sous le nom `traceo-wN-xx-sujet.mp4`.
 
-## 4. La boucle du lundi
+## 4. La boucle quotidienne (chaque jour vers 17 h 10, publication vers 18 h)
+
+Pierre a donné le 19/10/2026 son accord permanent pour que ce pilote crée et publie **chaque jour**, sans
+validation préalable, des vidéos conformes à ce fichier, sur ses comptes Traceo. Tout doit rester gratuit.
+
+### Quotas gratuits à respecter (vérifiés le 19/10/2026)
+
+- **Metricool gratuit : 20 publications par mois au total** (tous réseaux confondus, comptées au mois de publication ;
+  au-delà, elles ne partent pas). Les brouillons ne comptent pas. Octobre 2026 est déjà plein (20/20) : n'ajoute rien en octobre.
+  Avant toute programmation Metricool, compte les publications non brouillon du mois concerné avec `getScheduledPosts`
+  (plus celles déjà publiées ce mois-ci, visibles dans les statistiques) et ne dépasse jamais 20.
+- **Metricool gratuit : 5 concurrents Instagram** fixés par Pierre dans l'interface (ta liste de veille, gratuite).
+- **vidIQ gratuit : 150 crédits par mois** (recharge le 13 de chaque mois). Recherche d'outliers = 5 crédits ; publication
+  d'un Reel Instagram = 0 crédit ; import d'une vidéo (`vidiq_video_upload`) = 0 crédit.
+
+### Étapes de chaque jour
 
 **A. Mesurer.** Avec Metricool `getAnalyticsDataByMetrics` (brandId 7326703), sur les 28 derniers jours :
 Instagram Reels `IGRE02` (date), `IGRE03` (texte), `IGRE06` (url), `IGRE23` (vues), `IGRE11` (couverture),
 `IGRE21` (partages), `IGRE12` (enregistrements), `IGRE07` (commentaires), `IGRE10` (j'aime), `IGRE24` (durée
 moyenne de visionnage), `IGRE27` (rétention), `IGRE28` (taux de vue >3 s). Pour YouTube, appelle d'abord
-`getAnalyticsAvailableMetrics` (network youtube) et prends les champs **non dépréciés** (vues, durée moyenne, j'aime,
-commentaires, partages). Rattache chaque publication à sa vidéo du registre (par la date et le texte) et
-écris les chiffres dans `resultats` (une clé par date de relevé).
+`getAnalyticsAvailableMetrics` (network youtube) et prends les champs **non dépréciés**. Rattache chaque publication à
+sa vidéo du registre (date + texte) et écris les chiffres dans `resultats` (une clé par date de relevé).
 
-**B. Analyser.** Score d'une vidéo = (partages + 0,8 × enregistrements + 0,5 × commentaires) pour 1 000 comptes atteints,
-départagé par la rétention. Désigne les 2 meilleures et les 2 moins bonnes de la période, et dis en une phrase
-pourquoi (accroche, format, sujet, durée). Ne tire aucune conclusion d'une vidéo publiée depuis moins de 48 h.
+**B. Analyser.** Score = (partages + 0,8 × enregistrements + 0,5 × commentaires) pour 1 000 comptes atteints,
+départagé par la rétention. Ignore les vidéos publiées depuis moins de 48 h. Tiens à jour le top 3 et le flop 3
+dans `studio/registre.json` (clé `analyse`).
 
-**C. Repérer (si possible).** Si un connecteur Kapturz est présent, utilise-le pour les Reels qui marchent dans la
-niche running. Sinon, si le solde vidIQ (`vidiq_balance`) le permet, une recherche d'outliers « running » / « course à pied ».
-Sinon, passe cette étape sans rien inventer.
+**C. Repérer ce qui marche ailleurs (gratuit).**
+1. Liste de veille Metricool : `getAnalyticsDataByMetrics` avec `IGCR01` (compte), `IGCR03` (texte), `IGCR04` (url),
+   `IGCR06` (date), `IGCR07` (j'aime), `IGCR08` (commentaires), `IGCR09` (interactions), `IGCR10` (engagement), sur 30 jours.
+   Repère les 3 Reels qui dépassent le plus la moyenne de leur propre compte. Note dans `registre.json` (clé `veille`)
+   leur accroche, leur format et pourquoi ils marchent. Si aucun concurrent n'est configuré, dis-le dans le rapport.
+2. vidIQ : une fois par jour, si `vidiq_balance` ≥ 5, `vidiq_instagram_tiktok_outlier_search` avec
+   `query` « running course à pied parcours », `audienceQuery` « Culture/Region: France/French; Global: false; Demographics: coureurs amateurs 20-45 ans; »,
+   `descriptionLanguage` ["fr"], `resultsPerPlatform` 5. Garde les accroches et formats qui reviennent au moins deux fois.
+3. Si un connecteur Kapturz ou Virlo est un jour disponible, utilise-le en plus.
+Ne copie jamais une vidéo : reprends la mécanique (accroche, structure, format) et applique-la à Traceo avec ses vrais faits.
 
-**D. Remplir la file.** Lis les publications programmées (`getScheduledPosts`, 21 jours) et compare au calendrier cible :
-- Instagram : 4 Reels par semaine (lundi → dimanche), créneaux mardi 18:00, mercredi 10:00, vendredi 10:00, samedi 10:00. Un brouillon compte comme un créneau occupé.
-- YouTube : au moins 4 Shorts par semaine, à 18:00.
-- Regarde les 2 prochaines semaines. S'il manque des créneaux : réutilise d'abord une vidéo du registre jamais publiée sur ce réseau (sauf v07 et v08), puis fabrique une nouvelle vague (4 vidéos maximum par lundi) dont les angles s'inspirent des meilleures vidéos de l'étape B.
-- Les dates doivent être au moins 24 h dans le futur.
+**D. Créer.** Garde en stock au moins 3 vidéos prêtes qui ne sont pas encore parues sur Instagram (hors v07/v08).
+S'il en manque, fabrique-en 1 (2 au maximum) par jour, en t'inspirant d'abord de ton top 3 puis de la veille.
+Une nouvelle vague = un nouveau fichier `scenes_wN.py` (tu peux y ajouter des vidéos au fil des jours).
 
-**E. Publier dans Metricool** (`createScheduledPost`, `autoPublish: true`, `draft: false`, média = URL raw GitHub, après `git push`).
-- Instagram : `instagramData {"type": "REEL", "showReelOnFeed": true, "isAiGenerated": false}`, `videoCoverMilliseconds: 300`.
-  Légende : 1re ligne = une seule action (envoie-le à…, enregistre-le…, commente…, ou « Trace ta boucle gratuite : lien en bio. »),
+**E. Publier.**
+- **Instagram, 1 Reel par jour.** Si aucun Reel n'est programmé dans Metricool pour aujourd'hui (les brouillons ne comptent pas)
+  et qu'aucun n'est déjà paru aujourd'hui : publie maintenant via vidIQ, gratuitement :
+  1. `vidiq_instagram_connected_accounts` → prends le compte `traceo.io` avec `publishingAvailable: true`.
+     S'il n'y en a pas, saute la publication et mets en tête du rapport : « Connecte traceo.io à vidIQ (app.vidiq.com) pour activer la publication quotidienne ».
+  2. `vidiq_video_upload` avec l'URL raw GitHub de la vidéo → `videoUrl`.
+  3. `vidiq_instagram_publish_reel` avec ce `videoUrl`, le `platformAccountId`, la légende (règles ci-dessous), sans `trialParams`
+     et sans `isAiGenerated` ; continue avec `containerId` / `mcpJobId` jusqu'à `PUBLISHED`. Ne relance pas une publication en échec.
+- **YouTube Shorts via Metricool**, dans la limite du quota mensuel : chaque nouvelle vidéo y va aussi, à 18:00, un jour sans Short programmé.
+- **Pinterest via Metricool**, seulement si un compte Pinterest est connecté (`getBrandSettings`) et s'il reste du quota après YouTube.
+- Programmation Metricool : `createScheduledPost`, `autoPublish: true`, `draft: false`, média = URL raw GitHub (après `git push`), date au moins 24 h dans le futur.
+- Légende Instagram : 1re ligne = une seule action (envoie-le à…, enregistre-le…, commente…, ou « Trace ta boucle gratuite : lien en bio. »),
   puis 2 à 3 phrases avec les mots que les gens cherchent (parcours de course à pied, running, footing), puis 4 hashtags maximum.
 - YouTube : `youtubeData {"title": "<accroche + mot-clé> #running", "type": "short", "privacy": "public", "madeForKids": false, "category": "SPORTS", "tags": [15 tags], "isAiGeneratedContent": false}`.
   Description = 1re phrase riche en mots-clés + texte de la vidéo + une question pour les commentaires, puis **ce bloc exact** :
@@ -103,27 +131,34 @@ Gratuit pour commencer, sans compte pour ta première sortie. Premium : 4,99 €
 #running #courseapied #footing #parcoursrunning #shorts
 ```
 
-- Pinterest, seulement si `getBrandSettings` montre un compte Pinterest connecté : une épingle vidéo par vidéo
-  (1 par jour au plus, en rattrapant aussi les anciennes vidéos du registre), `pinterestData {"boardId": "<nom exact du tableau>", "pinTitle": "<titre avec mots-clés>", "pinLink": "https://traceorun.pages.dev"}`.
+- Pinterest : `pinterestData {"boardId": "<nom exact du tableau>", "pinTitle": "<titre avec mots-clés>", "pinLink": "https://traceorun.pages.dev"}`.
   Tableaux : « Parcours de course à pied », « Motivation running », « Courir en ville », « Courir le soir et l'hiver », « Défi #UneRueParSortie ».
-- Vérifie avec `getScheduledPosts` que chaque nouvelle publication est bien là.
+- Vérifie chaque programmation avec `getScheduledPosts`.
 
-**F. Noter.** Mets à jour `studio/registre.json` (nouvelles vidéos, dates par réseau, résultats), commit et push.
-Auteur des commits : `Pierre Renard <pierre.rnrd04@gmail.com>`.
+**F. Noter.** Mets à jour `studio/registre.json` (vidéos, dates par réseau, résultats, analyse, veille, compteur Metricool du mois),
+commit et push. Auteur des commits : `Pierre Renard <pierre.rnrd04@gmail.com>`. Avant de pousser : `git pull --rebase`.
 
 ## 5. Ce que le pilote ne fait jamais
 
 - Supprimer ou modifier une publication déjà en ligne, ou une publication programmée qu'il n'a pas créée lui-même.
-- Publier les brouillons v07 / v08, répondre à des commentaires, envoyer des messages, payer quoi que ce soit.
-- Contourner une erreur d'autorisation : il s'arrête et le signale.
+- Dépasser 20 publications Metricool dans un mois, ou dépenser des crédits vidIQ au-delà d'une recherche par jour.
+- Publier les brouillons v07 / v08, répondre à des commentaires, envoyer des messages, payer quoi que ce soit, prendre un essai payant.
+- Contourner une erreur d'autorisation : il s'arrête sur ce point et le signale.
 
 ## 6. Rapport à Pierre (message final, court, lisible sur téléphone)
 
+Du mardi au dimanche, 3 lignes :
+```
+✅ Publié aujourd'hui : <vidéo> sur <réseaux> (ou « rien, et pourquoi »)
+📈 Hier : meilleure vidéo <titre> · <chiffre clé>
+👉 Action pour toi : <une seule, ou « aucune »>
+```
+Le lundi, le bilan de la semaine :
 ```
 📊 Semaine du JJ/MM : X vues IG · Y vues YT
 🏆 Top : <vidéo> (<chiffre clé>) — pourquoi en une phrase
 📉 Flop : <vidéo> — pourquoi en une phrase
-🎬 Créé cette semaine : N vidéos (<titres>) / ou « rien, la file est pleine »
-📅 Programmé : IG jusqu'au JJ/MM · YT jusqu'au JJ/MM · Pinterest : <état>
+🔭 Veille : <la mécanique qui marche chez les autres cette semaine>
+🎬 Créées : N vidéos · 📅 Quota Metricool du mois : X/20
 👉 Une seule action pour toi (s'il y en a une)
 ```
