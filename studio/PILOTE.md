@@ -90,13 +90,14 @@ dans `studio/registre.json` (clé `analyse`).
 3. Si un connecteur Kapturz ou Virlo est un jour disponible, utilise-le en plus.
 Ne copie jamais une vidéo : reprends la mécanique (accroche, structure, format) et applique-la à Traceo avec ses vrais faits.
 
-**D. Créer.** Garde en stock au moins 3 vidéos prêtes qui ne sont pas encore parues sur Instagram (hors v07/v08).
+**D. Créer.** Garde en stock au moins 3 vidéos prêtes qui ne sont **ni parues ni programmées** sur Instagram (hors v07/v08 ; vérifie avec le registre et `getScheduledPosts`).
 S'il en manque, fabrique-en 1 (2 au maximum) par jour, en t'inspirant d'abord de ton top 3 puis de la veille.
 Une nouvelle vague = un nouveau fichier `scenes_wN.py` (tu peux y ajouter des vidéos au fil des jours).
 
 **E. Publier.**
 - **Instagram, 1 Reel par jour.** Si aucun Reel n'est programmé dans Metricool pour aujourd'hui (les brouillons ne comptent pas)
-  et qu'aucun n'est déjà paru aujourd'hui : publie maintenant via vidIQ, gratuitement :
+  et qu'aucun n'est déjà paru aujourd'hui : publie maintenant via vidIQ, gratuitement, une vidéo du stock de l'étape D
+  (jamais une vidéo déjà parue ou programmée sur Instagram, pour éviter les doublons) :
   1. `vidiq_instagram_connected_accounts` → prends le compte `traceo.io` avec `publishingAvailable: true`.
      S'il n'y en a pas, saute la publication et mets en tête du rapport : « Connecte traceo.io à vidIQ (app.vidiq.com) pour activer la publication quotidienne ».
   2. `vidiq_video_upload` avec l'URL raw GitHub de la vidéo → `videoUrl`.
