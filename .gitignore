@@ -1,0 +1,5 @@
+studio/out*/
+studio/fbprev/
+studio/apercus/
+studio/__pycache__/
+*.wav
