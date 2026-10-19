@@ -51,6 +51,22 @@ Une illustration (carte, ville, boucle) reste une illustration : écris « (Illu
 4. Rendu : `python3 render_wN.py 0 1 2 3` (environ 1 à 2 min par vidéo). Vérifie avec `ffprobe` : 2160×3840, piste audio présente.
 5. Copie les MP4 à la racine du dépôt sous le nom `traceo-wN-xx-sujet.mp4`.
 
+## 3 bis. Les skills Instagram (obligatoires à chaque exécution)
+
+Au début de chaque exécution, installe-les :
+`mkdir -p ~/.claude/skills ~/.claude/instagram && cp -r studio/skills/ig-* ~/.claude/skills/ && cp studio/instagram/*.md ~/.claude/instagram/`
+Puis lis le `SKILL.md` de chaque skill avant de t'en servir et applique-le (les scripts Python des dossiers tournent vraiment) :
+
+- **ig-reel** pour chaque nouvelle vidéo : écris 5 accroches à partir des 26 formules de `hooks.json`, classe-les avec
+  `python3 hookscore.py`, garde la meilleure (score ≥ 50, sinon réécris), puis `beats.py --target <durée>` pour caler le texte
+  à l'écran seconde par seconde. Pas de voix off : le « script » est le texte à l'écran.
+- **ig-caption** pour chaque légende Instagram (`caption.py` doit passer sans alerte), en respectant la section 4.E.
+- **ig-human** sur tout texte publié (accroche, légende, titre et description YouTube) : `detect.py` doit passer.
+- **ig-viral** quand le solde vidIQ le permet (étape C) : il écrit `~/.claude/instagram/swipe.md` ; recopie ce fichier dans
+  `studio/instagram/swipe.md` pour les jours suivants.
+- **ig-audit** chaque lundi, sur les chiffres Metricool de l'étape A : il dit quoi refaire et quoi arrêter. Résume-le dans le bilan.
+- **ig-plan** chaque lundi pour vérifier que la semaine respecte le rythme et les formats ; garde `studio/instagram/plan.md` à jour.
+
 ## 4. La boucle quotidienne (chaque jour vers 17 h 10, publication vers 18 h)
 
 Pierre a donné le 19/10/2026 son accord permanent pour que ce pilote crée et publie **chaque jour**, sans
