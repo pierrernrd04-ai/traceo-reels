@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19",
+ "maj": "2026-10-20",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -236,6 +236,21 @@
    "youtube": "2026-11-07T18:00",
    "pinterest": null,
    "resultats": {}
+  },
+  {
+   "id": "m1020-le-diamant",
+   "fichier": "traceo-m1020-le-diamant.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1020-le-diamant.mp4",
+   "angle": "Menu du 20/10, s01 (rang 1, aucun choix de Pierre) : « 100 sorties = 1 diamant Traceo. Voici ce qu'il te donne. » (31 jours de Premium)",
+   "menu": "2026-10-20/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Archivo Black + Archivo, papier lilas #ECE8F4, encre #1D1530, accent #16896A, lit « sonar »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ne pas oublier.\n\nAvec Traceo, chaque fois que tu atteins 100 sorties, tu gagnes un diamant : 31 jours de Premium. Ton parcours de course à pied change à chaque footing, et tes sorties comptent.\n\nTrace ta boucle depuis chez toi, de 2 à 42 km, par des rues que tu n'as jamais courues.\n\n#running #courseapied #footing #motivationrunning",
+   "instagram": null,
+   "youtube": "2026-11-08T18:00",
+   "youtube_metricool_id": 401217449,
+   "pinterest": null,
+   "resultats": {}
   }
  ],
  "journal": [
@@ -267,10 +282,26 @@
    ],
    "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
    "menu_demain": "studio/menus/2026-10-20.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-20 (pilote 17 h 10)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (dernier relevé identique). YT : métriques vidéos Metricool toutes dépréciées, aucun Short encore publié (premier ce soir 18:00).",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Le diamant » → traceo-m1020-le-diamant.mp4, YouTube 08/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté ; v01 déjà programmé à 18:00 via Metricool)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-21.json (11 scripts)",
+   "outils": "caption.py et detect.py calibrés sur l'anglais : alerte ONE ASK et note VOICE non pertinentes en français"
   }
  ],
  "analyse": {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -312,15 +343,15 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucune vidéo du registre n'est encore en ligne (première le 20/10). Meilleure rétention : 14/10 « 10 000 pas » (50,2 % >3 s), mais 0 partage."
+  "note": "Aucun nouveau Reel depuis le 17/10 : top et flop inchangés. Premières vidéos du registre en ligne ce soir 18:00 (v01 sur Instagram et un Short YouTube) ; analysables à partir du 22/10."
  },
  "veille": {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
  },
  "metricool_quota": {
   "2026-10": "20/20 (plein)",
-  "2026-11": "18/20 (IG 10, YT 8) après les Shorts du 06/11 et du 07/11"
+  "2026-11": "19/20 (IG 10, YT 9) après le Short du 08/11 (m1020-le-diamant)"
  }
 }
