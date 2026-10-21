@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20",
+ "maj": "2026-10-21",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -9,7 +9,8 @@
    "instagram": "2026-10-20T18:00",
    "youtube": "2026-10-20T18:00",
    "pinterest": null,
-   "resultats": {}
+   "resultats": {},
+   "instagram_note": "20/10 18:00 (Metricool) : absent des stats IG et de YouTube le 21/10, sans doute refusé pour la même limite de compte."
   },
   {
    "id": "v02-156",
@@ -29,7 +30,8 @@
    "instagram": "2026-10-21T10:00",
    "youtube": "2026-10-22T18:00",
    "pinterest": null,
-   "resultats": {}
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 21/10 10:00 : « You have reached your Metricool account limit » (post 399749355, statut ERROR). Pas paru."
   },
   {
    "id": "v04-trois-gestes",
@@ -251,6 +253,22 @@
    "youtube_metricool_id": 401217449,
    "pinterest": null,
    "resultats": {}
+  },
+  {
+   "id": "m1021-meme-6-km",
+   "fichier": "traceo-m1021-meme-6-km.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1021-meme-6-km.mp4",
+   "angle": "Menu du 21/10, s01 (rang 1, aucun choix de Pierre) : « Même 6 km. Ton tour habituel ou 6 km de rues neuves ? » (face-à-face gauche/droite)",
+   "menu": "2026-10-21/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Bowlby One SC + DM Sans, papier crème #F2EEE4, encre #13202A, accent #1F7FB5, lit « neon »",
+   "accroche_note": 49.3,
+   "legende_instagram": "Commente GAUCHE ou DROITE.\n\nMême distance, même effort, mais pas le même footing. Traceo trace ton parcours de course à pied depuis chez toi, par des rues nouvelles, et te ramène au départ.\n\n#running #courseapied #footing #parcoursrunning",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 21/10",
+   "youtube": "2026-11-09T18:00",
+   "youtube_metricool_id": 402251768,
+   "pinterest": null,
+   "resultats": {}
   }
  ],
  "journal": [
@@ -298,10 +316,27 @@
    "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
    "menu_demain": "studio/menus/2026-10-21.json (11 scripts)",
    "outils": "caption.py et detect.py calibrés sur l'anglais : alerte ONE ASK et note VOICE non pertinentes en français"
+  },
+  {
+   "date": "2026-10-21 (pilote 17 h 13)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (ni v01 du 20/10). YT : aucun Short dans les stats (YTVP vide).",
+   "alerte": "Metricool : le Reel v03 du 21/10 10:00 est en ERROR « account limit reached ». Le quota d'octobre est en réalité dépassé : les publications d'octobre encore programmées (IG 23, 24, 27, 28, 30, 31/10 ; YT 21 au 31/10) vont échouer. Pierre prévenu par notification.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Même 6 km » → traceo-m1021-meme-6-km.mp4, YouTube 09/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-22.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -343,15 +378,15 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucun nouveau Reel depuis le 17/10 : top et flop inchangés. Premières vidéos du registre en ligne ce soir 18:00 (v01 sur Instagram et un Short YouTube) ; analysables à partir du 22/10."
+  "note": "Aucun nouveau Reel paru depuis le 17/10 (v01 du 20/10 et v03 du 21/10 bloqués par la limite Metricool) : top et flop inchangés."
  },
  "veille": {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
  },
  "metricool_quota": {
-  "2026-10": "20/20 (plein)",
-  "2026-11": "19/20 (IG 10, YT 9) après le Short du 08/11 (m1020-le-diamant)"
+  "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
+  "2026-11": "20/20 (plein : IG 10, YT 10) après le Short du 09/11 (m1021-meme-6-km)"
  }
 }
