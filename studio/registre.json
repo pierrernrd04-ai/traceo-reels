@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21",
+ "maj": "2026-10-23",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -31,7 +31,8 @@
    "youtube": "2026-10-22T18:00",
    "pinterest": null,
    "resultats": {},
-   "instagram_note": "ÉCHEC Metricool 21/10 10:00 : « You have reached your Metricool account limit » (post 399749355, statut ERROR). Pas paru."
+   "instagram_note": "ÉCHEC Metricool 21/10 10:00 : « You have reached your Metricool account limit » (post 399749355, statut ERROR). Pas paru.",
+   "youtube_note": "ÉCHEC Metricool 22/10 18:00 : « You have reached your Metricool account limit. »"
   },
   {
    "id": "v04-trois-gestes",
@@ -41,7 +42,8 @@
    "instagram": "2026-10-23T10:00",
    "youtube": "2026-10-26T18:00",
    "pinterest": null,
-   "resultats": {}
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 23/10 10:00 : « You have reached your Metricool account limit. »"
   },
   {
    "id": "v05-le-choix",
@@ -333,10 +335,28 @@
    ],
    "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
    "menu_demain": "studio/menus/2026-10-22.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-23 (pilote 17 h 12)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Aucune exécution le 22/10 (menu du 22/10 jamais fabriqué). Metricool : Reel v04 du 23/10 10:00 en ERROR « account limit reached » ; Short YouTube v03 du 22/10 18:00 en ERROR aussi.",
+   "menu": "aucun menu pour le 23/10 → rien fabriqué (section 4 bis, point 1) ; aucun choix de Pierre",
+   "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
+   "garder": "aucun",
+   "crees": 0,
+   "stock_ig": [
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-24.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-10-21",
+  "date": "2026-10-23",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -378,10 +398,10 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucun nouveau Reel paru depuis le 17/10 (v01 du 20/10 et v03 du 21/10 bloqués par la limite Metricool) : top et flop inchangés."
+  "note": "Aucun nouveau Reel paru depuis le 17/10 (publications Metricool refusées par la limite du compte) : top et flop inchangés."
  },
  "veille": {
-  "date": "2026-10-21",
+  "date": "2026-10-23",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
  },
