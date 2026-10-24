@@ -8,3 +8,4 @@ video-agent/edits/*/frames/
 video-agent/edits/*/files/
 video-agent/.tmp/
 video-agent/.env
+video-agent/edits/*/.cache/
