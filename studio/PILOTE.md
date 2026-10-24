@@ -60,7 +60,7 @@ Alterne avec la méthode 1 (une vidéo sur deux). Préparation, une fois par ex�
 cp -a studio/video-skills/. ~/.claude/skills/
 mkdir -p ~/.claude/skills/short-editing/engine/node_modules
 ln -sfn /opt/node-tools/node_modules/playwright-core ~/.claude/skills/short-editing/engine/node_modules/playwright-core
-export CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome
+export CHROME_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome
 SK=~/.claude/skills/short-editing
 ```
 Lis `$SK/SKILL.md` et ses `references/` (design-system, scene-library, shorts-codes), et `~/.claude/skills/studio-script/SKILL.md`

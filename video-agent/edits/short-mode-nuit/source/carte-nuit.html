@@ -1,0 +1,76 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:900px;height:900px;overflow:hidden;background:#0E151F}
+  #card{position:absolute;inset:0;border-radius:56px;overflow:hidden;background:#0D1520}
+  #card>svg{position:absolute;inset:0}
+  .pill{position:absolute;font-family:"JetBrains Mono";font-weight:700;color:#E8EEF3;border-radius:40px;padding:14px 28px;font-size:36px;letter-spacing:.02em}
+  #toggle{left:40px;top:38px;background:#18222F;border:2px solid #2A3A4C;display:flex;align-items:center;gap:20px}
+  #sw{width:84px;height:46px;border-radius:30px;background:#2A3A4C;position:relative}
+  #knob{position:absolute;top:5px;left:5px;width:36px;height:36px;border-radius:50%;background:#E8EEF3}
+  #voice{right:40px;bottom:40px;background:#3CC79A;color:#07211A;display:flex;align-items:center;gap:16px}
+</style></head>
+<body><div id="card">
+<svg width="900" height="900" viewBox="0 0 900 900">
+  <rect id="bg" width="900" height="900" fill="#0D1520"/>
+  <path d="M0 760 C180 700 300 800 470 760 S760 690 900 740 L900 900 L0 900Z" fill="#10263A" id="river"/>
+  <rect x="580" y="560" width="220" height="140" rx="18" fill="#102619" id="park"/>
+  <g id="streets" stroke="#33445A" stroke-width="10" stroke-linecap="round" fill="none"></g>
+  <g id="major" stroke="#566A83" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M60 450 L840 450"/><path d="M450 90 L450 720"/>
+  </g>
+  <path id="glow" d="" fill="none" stroke="#3CC79A" stroke-width="40" stroke-linejoin="round" stroke-linecap="round" opacity=".25"/>
+  <path id="loop" d="" fill="none" stroke="#3CC79A" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <path id="done" d="" fill="none" stroke="#4AA6D8" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle id="runner" r="20" fill="#E8EEF3" stroke="#4AA6D8" stroke-width="8" cx="-50" cy="-50"/>
+  <g id="home"><circle cx="450" cy="620" r="30" fill="#E8EEF3"/><circle cx="450" cy="620" r="13" fill="#0D1520"/></g>
+</svg>
+<div class="pill" id="toggle"><span>Mode nuit</span><div id="sw"><div id="knob"></div></div></div>
+<div class="pill" id="voice"><svg width="38" height="38" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="#07211A"/><path d="M16 8.5c1.2 1 1.8 2.2 1.8 3.5s-.6 2.5-1.8 3.5M18.5 6c2 1.6 3 3.7 3 6s-1 4.4-3 6" stroke="#07211A" stroke-width="2" fill="none" stroke-linecap="round"/></svg><span id="vtxt">Tourne à droite</span></div>
+</div>
+<script>
+const S=(x,w)=>x<=0?0:1-(1+w*x)*Math.exp(-w*x);
+const cl=(x)=>Math.max(0,Math.min(1,x));
+const xs=[90,170,250,330,450,560,620,700,800], ys=[100,180,260,360,520,620,820];
+const g=document.getElementById('streets');
+let d='';
+xs.forEach(x=>d+=`M${x} 70 L${x} 840 `); ys.forEach(y=>d+=`M60 ${y} L840 ${y} `);
+d+='M330 360 L250 300 M470 180 L560 260 M700 450 L620 520 M90 620 L250 820 M800 100 L700 260';
+const sp=document.createElementNS('http://www.w3.org/2000/svg','path'); sp.setAttribute('d',d); g.appendChild(sp);
+const L='M450 620 L450 520 L330 520 L330 360 L250 300 L250 180 L470 180 L560 260 L700 260 L700 450 L620 520 L620 620 Z';
+['glow','loop'].forEach(id=>document.getElementById(id).setAttribute('d',L));
+const loop=document.getElementById('loop'), glow=document.getElementById('glow'), done=document.getElementById('done');
+done.setAttribute('d',L);
+const len=loop.getTotalLength();
+[loop,glow,done].forEach(p=>{p.style.strokeDasharray=len;});
+const lines=['Tourne à droite','Continue tout droit','Tourne à gauche','Retour au départ'];
+window.setT=function(t){
+  // night mode toggle 0.2 -> 0.6, map brightens to contrast
+  const k=S(t-0.2,9);
+  document.getElementById('knob').style.left=(5+38*k)+'px';
+  document.getElementById('sw').style.background=k>0.5?'#3CC79A':'#2A3A4C';
+  const c=k; // contrast amount
+  sp.parentNode.setAttribute('stroke',`rgb(${51+40*c},${68+44*c},${90+50*c})`);
+  document.getElementById('major').setAttribute('stroke',`rgb(${86+80*c},${106+80*c},${131+80*c})`);
+  document.getElementById('bg').setAttribute('fill',`rgb(${13-6*c},${21-9*c},${32-12*c})`);
+  // loop draws 0.8 -> 3.4
+  const p=S(t-0.8,2.2)*cl((t-0.8)/0.01);
+  const drawn=Math.min(1,p*1.03);
+  loop.style.strokeDashoffset=len*(1-drawn); glow.style.strokeDashoffset=len*(1-drawn);
+  glow.style.opacity=.15+.15*cl((t-3)/0.6);
+  // runner 4.2 -> 8
+  const r=cl((t-4.2)/3.8);
+  const e=r<.5?2*r*r:1-Math.pow(-2*r+2,2)/2;
+  done.style.strokeDashoffset=len*(1-e);
+  done.style.opacity=t>4.2?1:0;
+  const pt=loop.getPointAtLength(len*e);
+  const rn=document.getElementById('runner');
+  rn.setAttribute('cx',t>4.1?pt.x:-50); rn.setAttribute('cy',t>4.1?pt.y:-50);
+  // voice pill from 4.4
+  const v=S(t-4.4,7); const vp=document.getElementById('voice');
+  vp.style.opacity=v; vp.style.transform=`translateY(${(1-v)*30}px)`;
+  document.getElementById('vtxt').textContent=lines[Math.min(3,Math.floor(cl((t-4.4)/3.6)*4))];
+  document.getElementById('card').style.opacity=S(t,10);
+};
+window.setT(0);
+</script></body></html>
