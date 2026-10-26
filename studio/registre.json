@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-24",
+ "maj": "2026-10-26",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -390,10 +390,30 @@
    "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
    "menu_demain": "studio/menus/2026-10-25.json (11 scripts)",
    "outils": "Chromium du cloud : /opt/pw-browsers/chromium-1243/chrome-linux64/chrome (le chemin chromium-1194 de PILOTE.md n'existe plus)"
+  },
+  {
+   "date": "2026-10-26 (pilote 17 h 16)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats (YTVP vide).",
+   "alerte": "Aucune exécution le 25/10 (menu du 25/10 jamais fabriqué, pas de menu pour le 26/10). Le Short v04 de ce soir 18:00 risque d'échouer (quota d'octobre dépassé).",
+   "menu": "aucun menu pour le 26/10 → rien fabriqué (section 4 bis, point 1) ; choix du 25/10 : aucun",
+   "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
+   "garder": "aucun",
+   "crees": 0,
+   "stock_ig": [
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "bilan_semaine_19_10": "0 nouveau Reel IG paru, 0 Short YT dans les stats ; 1 vidéo créée (m1024)",
+   "menu_demain": "studio/menus/2026-10-27.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -435,10 +455,11 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucun nouveau Reel paru depuis le 17/10 (publications Metricool refusées par la limite du compte) : top et flop inchangés."
+  "note": "Aucun nouveau Reel paru depuis le 17/10 (publications Metricool refusées par la limite du compte, vidIQ sans compte Instagram) : top et flop inchangés.",
+  "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel)."
  },
  "veille": {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
  },
