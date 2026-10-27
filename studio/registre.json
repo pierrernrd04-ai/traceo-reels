@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-26",
+ "maj": "2026-10-27",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -289,6 +289,23 @@
    "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
    "pinterest": null,
    "resultats": {}
+  },
+  {
+   "id": "m1027-une-autre-rue",
+   "fichier": "traceo-m1027-une-autre-rue.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1027-une-autre-rue.mp4",
+   "angle": "Menu du 27/10, s01 (rang 1, aucun choix de Pierre) : « 1 rue courue ce soir. Demain, Traceo t'en propose 1 autre. » (mémoire des rues déjà proposées)",
+   "menu": "2026-10-27/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Poppins SemiBold, papier sauge #EDF2E8, encre #18241C, accent #1B8F86, lit « filature »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ta prochaine sortie.\n\nTon prochain parcours de course à pied, de 5 ou 10 km, passe ailleurs : Traceo se souvient des rues qu'il t'a déjà proposées. Ton footing ne tourne plus en rond.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Traceo se souvient de tes rues : un parcours de course différent demain #running",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 27/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
   }
  ],
  "journal": [
@@ -410,10 +427,29 @@
    "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
    "bilan_semaine_19_10": "0 nouveau Reel IG paru, 0 Short YT dans les stats ; 1 vidéo créée (m1024)",
    "menu_demain": "studio/menus/2026-10-27.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-27 (pilote 17 h 27)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Short v04 du 26/10 18:00 en ERROR (limite du compte). Reel v06 et Short w04 programmés ce soir 18:00 risquent le même sort.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Demain, une autre rue » → traceo-m1027-une-autre-rue.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-28.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -459,7 +495,7 @@
   "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel)."
  },
  "veille": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : solde 2 crédits < 5 (recharge le 13/11)"
  },
