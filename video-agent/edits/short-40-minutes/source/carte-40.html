@@ -1,0 +1,83 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:900px;height:900px;overflow:hidden;background:#EEEFEA}
+  #card{position:absolute;inset:0;border-radius:56px;overflow:hidden;background:#F8F8F5;border:3px solid #D9DBD4;box-sizing:border-box}
+  #card>svg{position:absolute;inset:0}
+  .pill{position:absolute;font-family:"TeX Gyre Adventor";font-weight:700;border-radius:40px;padding:14px 28px;font-size:36px}
+  #dur{left:36px;top:34px;background:#17202B;color:#F8F8F5;display:flex;align-items:center;gap:18px}
+  #dur b{color:#3CC79A}
+  #kept{right:36px;top:34px;background:#3CC79A;color:#07211A}
+  #back{left:50%;bottom:36px;transform:translateX(-50%);background:#4AA6D8;color:#071C2A;white-space:nowrap}
+</style></head>
+<body><div id="card">
+<svg width="900" height="900" viewBox="0 0 900 900">
+  <path d="M0 790 C200 730 320 830 480 790 S760 720 900 770 L900 900 L0 900Z" fill="#D7E8F0"/>
+  <rect x="600" y="560" width="200" height="130" rx="18" fill="#DCEBDD"/>
+  <rect x="110" y="610" width="150" height="120" rx="18" fill="#DCEBDD"/>
+  <g id="streets" stroke="#DADDD6" stroke-width="12" stroke-linecap="round" fill="none"></g>
+  <g stroke="#C4C8BF" stroke-width="20" stroke-linecap="round" fill="none">
+    <path d="M60 450 L840 450"/><path d="M450 120 L450 740"/>
+  </g>
+  <path id="r0" fill="none" stroke="#8E97A3" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 22"/>
+  <path id="r1" fill="none" stroke="#8E97A3" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <path id="r2" fill="none" stroke="#8E97A3" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <path id="glow" fill="none" stroke="#3CC79A" stroke-width="42" stroke-linejoin="round" stroke-linecap="round" opacity="0"/>
+  <path id="done" fill="none" stroke="#4AA6D8" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle id="runner" r="20" fill="#FFFFFF" stroke="#4AA6D8" stroke-width="8" cx="-50" cy="-50"/>
+  <g><circle cx="450" cy="620" r="32" fill="#17202B"/><circle cx="450" cy="620" r="13" fill="#F8F8F5"/></g>
+</svg>
+<div class="pill" id="dur"><span>Durée</span><b id="durv">40 min</b></div>
+<div class="pill" id="kept">Gardé ✓</div>
+<div class="pill" id="back">Retour au départ</div>
+</div>
+<script>
+const S=(x,w)=>x<=0?0:1-(1+w*x)*Math.exp(-w*x);
+const cl=x=>Math.max(0,Math.min(1,x));
+const xs=[100,180,270,350,450,550,630,710,800], ys=[150,230,310,380,520,620,700];
+let d='';
+xs.forEach(x=>d+=`M${x} 110 L${x} 760 `); ys.forEach(y=>d+=`M60 ${y} L840 ${y} `);
+d+='M350 380 L270 310 M550 230 L630 310 M710 450 L630 520 M100 620 L270 760';
+const sp=document.createElementNS('http://www.w3.org/2000/svg','path'); sp.setAttribute('d',d);
+document.getElementById('streets').appendChild(sp);
+// three candidate loops from home (450,620); route 2 is kept
+const R=[
+ 'M450 620 L450 520 L180 520 L180 620 L350 620 L350 700 L450 700 Z',
+ 'M450 620 L550 620 L710 620 L710 520 L800 520 L800 380 L550 380 L550 520 L450 520 Z',
+ 'M450 620 L450 520 L350 520 L350 380 L270 310 L270 150 L550 150 L550 230 L630 310 L710 310 L710 450 L630 520 L630 620 Z'
+];
+const P=R.map((p,i)=>{const e=document.getElementById('r'+i);e.setAttribute('d',p);return e;});
+const glow=document.getElementById('glow'), done=document.getElementById('done');
+glow.setAttribute('d',R[2]); done.setAttribute('d',R[2]);
+const L=P.map(p=>p.getTotalLength());
+P.forEach((p,i)=>{ if(i>0) p.style.strokeDasharray=L[i]; });
+done.style.strokeDasharray=L[2]; glow.style.strokeDasharray=L[2];
+window.setT=function(t){
+  document.getElementById('card').style.opacity=S(t,10);
+  // duration value ticks 10 -> 40 between 0.15 and 0.75
+  const v=Math.round(10+30*cl((t-0.15)/0.6)/10)*10;
+  document.getElementById('durv').textContent=Math.min(40,v)+' min';
+  // candidates draw 0.6 -> 2.6
+  P.forEach((p,i)=>{
+    const k=S(t-0.6-0.25*i,2.6);
+    if(i>0) p.style.strokeDashoffset=L[i]*(1-Math.min(1,k*1.03));
+    else p.style.opacity=k;
+  });
+  // choose at 3.0: losers fade, winner turns turquoise
+  const c=S(t-3.0,7);
+  P[0].style.opacity=Math.min(S(t-0.6,2.6),1-0.85*c);
+  P[1].style.opacity=1-0.85*c;
+  P[2].setAttribute('stroke', c>0.5?'#3CC79A':'#8E97A3');
+  P[2].setAttribute('stroke-width', 12+6*c);
+  glow.setAttribute('opacity', 0.28*c);
+  const kp=document.getElementById('kept'); kp.style.opacity=S(t-3.3,8); kp.style.transform=`translateY(${(1-S(t-3.3,8))*-24}px)`;
+  // runner 4.4 -> 7.4
+  const r=cl((t-4.4)/3.0); const e=r<.5?2*r*r:1-Math.pow(-2*r+2,2)/2;
+  done.style.strokeDashoffset=L[2]*(1-e); done.style.opacity=t>4.4?1:0;
+  const pt=P[2].getPointAtLength(L[2]*e); const rn=document.getElementById('runner');
+  rn.setAttribute('cx',t>4.35?pt.x:-50); rn.setAttribute('cy',t>4.35?pt.y:-50);
+  const b=S(t-7.2,8); const bk=document.getElementById('back');
+  bk.style.opacity=b; bk.style.transform=`translateX(-50%) translateY(${(1-b)*24}px)`;
+};
+window.setT(0);
+</script></body></html>
