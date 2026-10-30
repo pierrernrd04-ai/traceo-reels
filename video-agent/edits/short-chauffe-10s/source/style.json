@@ -1,0 +1,51 @@
+{
+ "captions": {
+  "style": "rise",
+  "size": 82,
+  "straddle": true
+ },
+ "paper": {
+  "grain": 1.2,
+  "tooth": 1,
+  "depth": 1.7,
+  "logos": "flat"
+ },
+ "layout": {
+  "frame": true,
+  "seam": 1160
+ },
+ "display": {
+  "font": "Bricolage Grotesque",
+  "weight": 800,
+  "text": "Bricolage Grotesque",
+  "title": "ink",
+  "flat": true
+ },
+ "font": {
+  "family": "Bricolage Grotesque"
+ },
+ "grade": true,
+ "version": 1,
+ "name": "default",
+ "creator": {
+  "name": "Traceo",
+  "handle": "@traceo.io",
+  "lang": "fr",
+  "niche": "Course à pied : une boucle neuve à chaque sortie, depuis chez toi, coureurs amateurs en France 20-45 ans",
+  "cta": {
+   "sub": "Une boucle neuve à chaque sortie",
+   "button": "S'abonner",
+   "done": "Abonné"
+  }
+ },
+ "colors": {
+  "paper": "#E9EDF2",
+  "ink": "#10233A",
+  "accent": "#2F86C2"
+ },
+ "notes": [
+  "Tutoiement",
+  "Jamais de chiffres d'utilisateurs ni de témoignages inventés",
+  "Faits produit : uniquement ceux de studio/PILOTE.md section 2"
+ ]
+}
