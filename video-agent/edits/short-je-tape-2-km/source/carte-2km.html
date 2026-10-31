@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:900px;height:900px;overflow:hidden;background:#F3E6E1}
+  #card{position:absolute;inset:0;border-radius:56px;overflow:hidden;background:#FBF6F3;border:3px solid #E2D2CB;box-sizing:border-box}
+  #card>svg{position:absolute;inset:0}
+  .pill{position:absolute;font-family:"TeX Gyre Heros Cn";font-weight:700;border-radius:40px;padding:14px 30px;font-size:40px}
+  #dist{left:36px;top:34px;background:#2B1D1A;color:#FBF6F3;display:flex;align-items:center;gap:18px}
+  #dist b{color:#3CC79A}
+  #ok{right:36px;top:34px;background:#3CC79A;color:#07211A}
+  #back{left:50%;bottom:36px;transform:translateX(-50%);background:#4AA6D8;color:#071C2A;white-space:nowrap}
+  #home{position:absolute;font-family:"TeX Gyre Heros Cn";font-weight:700;font-size:32px;color:#2B1D1A}
+</style></head>
+<body><div id="card">
+<svg width="900" height="900" viewBox="0 0 900 900">
+  <path d="M0 160 C180 210 300 120 470 170 S760 230 900 180 L900 0 L0 0Z" fill="#DCE9F1"/>
+  <rect x="120" y="580" width="170" height="140" rx="20" fill="#E0ECDD"/>
+  <rect x="640" y="300" width="150" height="120" rx="20" fill="#E0ECDD"/>
+  <g id="streets" stroke="#E8DCD6" stroke-width="12" stroke-linecap="round" fill="none"></g>
+  <g stroke="#D6C6BF" stroke-width="20" stroke-linecap="round" fill="none">
+    <path d="M60 470 L840 470"/><path d="M450 230 L450 770"/>
+  </g>
+  <path id="glow" fill="none" stroke="#3CC79A" stroke-width="44" stroke-linejoin="round" stroke-linecap="round" opacity="0"/>
+  <path id="loop" fill="none" stroke="#3CC79A" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+  <path id="done" fill="none" stroke="#4AA6D8" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle id="runner" r="20" fill="#FFFFFF" stroke="#4AA6D8" stroke-width="8" cx="-50" cy="-50"/>
+  <g><circle cx="450" cy="620" r="32" fill="#2B1D1A"/><circle cx="450" cy="620" r="13" fill="#FBF6F3"/></g>
+</svg>
+<div class="pill" id="dist"><span>Distance</span><b id="dv">2 km</b></div>
+<div class="pill" id="ok">Tracée ✓</div>
+<div class="pill" id="back">Retour à ta porte</div>
+</div>
+<script>
+const S=(x,w)=>x<=0?0:1-(1+w*x)*Math.exp(-w*x);
+const cl=x=>Math.max(0,Math.min(1,x));
+const xs=[120,200,290,370,450,530,610,700,780], ys=[250,330,400,540,620,700];
+let d='';
+xs.forEach(x=>d+=`M${x} 230 L${x} 770 `); ys.forEach(y=>d+=`M60 ${y} L840 ${y} `);
+d+='M370 400 L290 330 M530 330 L610 400 M610 540 L700 620';
+const sp=document.createElementNS('http://www.w3.org/2000/svg','path'); sp.setAttribute('d',d);
+document.getElementById('streets').appendChild(sp);
+const R='M450 620 L530 620 L610 540 L610 400 L530 330 L370 330 L370 400 L290 400 L290 540 L370 540 L370 620 Z';
+const loop=document.getElementById('loop'), glow=document.getElementById('glow'), done=document.getElementById('done');
+[loop,glow,done].forEach(e=>e.setAttribute('d',R));
+const L=loop.getTotalLength();
+[loop,done,glow].forEach(e=>e.style.strokeDasharray=L);
+window.setT=function(t){
+  document.getElementById('card').style.opacity=S(t,10);
+  const k=S(t-0.4,1.6); loop.style.strokeDashoffset=L*(1-Math.min(1,k*1.02));
+  const c=S(t-2.6,7); glow.style.strokeDashoffset=0; glow.setAttribute('opacity',0.25*c);
+  const ok=document.getElementById('ok'); ok.style.opacity=c; ok.style.transform=`translateY(${(1-c)*-24}px)`;
+  const r=cl((t-3.4)/3.4); const e=r<.5?2*r*r:1-Math.pow(-2*r+2,2)/2;
+  done.style.strokeDashoffset=L*(1-e); done.style.opacity=t>3.4?1:0;
+  const pt=loop.getPointAtLength(L*e); const rn=document.getElementById('runner');
+  rn.setAttribute('cx',t>3.35?pt.x:-50); rn.setAttribute('cy',t>3.35?pt.y:-50);
+  const b=S(t-6.6,8); const bk=document.getElementById('back');
+  bk.style.opacity=b; bk.style.transform=`translateX(-50%) translateY(${(1-b)*24}px)`;
+};
+window.setT(0);
+</script></body></html>

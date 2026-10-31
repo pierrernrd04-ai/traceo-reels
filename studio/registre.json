@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30",
+ "maj": "2026-10-31",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -361,6 +361,24 @@
    "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
    "pinterest": null,
    "resultats": {}
+  },
+  {
+   "id": "m1031-je-tape-2-km",
+   "fichier": "traceo-m1031-je-tape-2-km.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1031-je-tape-2-km.mp4",
+   "angle": "Menu du 31/10, s01 (rang 1, aucun choix de Pierre) : « Je tape 2 km. Regarde la plus petite boucle sortir. » (démo carte, boucle depuis la porte, retour au départ)",
+   "menu": "2026-10-31/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, TeX Gyre Heros Cn, papier rosé #F3E6E1, encre brun #2B1D1A, accent #1C7DB0, composant HTML carte-2km, lit « labo »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Trace ta boucle gratuite : lien en bio.\n\nUn petit footing de reprise ? Règle 2 km : Traceo trace ton parcours de course à pied depuis chez toi, par des rues que tu n'as jamais courues, et te ramène au départ. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Je tape 2 km : ma plus petite boucle de course sort en 10 secondes #running",
+   "controles": "contrôle visuel contact.jpg + carte-2km-sheet OK ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
+   "instagram": null,
+   "instagram_note": "en tête du stock : outils vidIQ absents de la session du 31/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
   }
  ],
  "journal": [
@@ -564,32 +582,55 @@
    ],
    "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
    "menu_demain": "studio/menus/2026-10-31.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-31 (pilote 17 h 11)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (légère hausse des vues cumulées, ex. 12/10 sans légende 237 vues). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reel v10 du 31/10 10:00 et Short v05 du 30/10 18:00 en ERROR « account limit ». Short w08 ce soir 18:00 en attente, même risque.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Je tape 2 km » → traceo-m1031-je-tape-2-km.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "menu_demain": "studio/menus/2026-11-01.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
     "reel": "12/10 12:31 sans légende",
     "url": "https://www.instagram.com/reel/DeZARFoMaZf/",
     "score": 14.3,
-    "vues": 222,
-    ">3s": 36.9
+    "vues": 237,
+    ">3s": 36.2
    },
    {
     "reel": "09/10 19:25 sans légende",
     "url": "https://www.instagram.com/reel/DeSQUocsxm9/",
     "score": 10.9,
-    "vues": 148,
-    ">3s": 25.0
+    "vues": 152,
+    ">3s": 25.5
    },
    {
     "reel": "13/10 « Niveau 1/2 » gaming",
     "url": "https://www.instagram.com/reel/DecTUSKFbNa/",
     "score": 4.0,
-    "vues": 305,
-    ">3s": 45.2
+    "vues": 312,
+    ">3s": 44.1
    }
   ],
   "flop": [
@@ -609,11 +650,11 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucun nouveau Reel paru depuis le 17/10 (relevé du 30/10 identique) : top et flop inchangés.",
+  "note": "Aucun nouveau Reel paru depuis le 17/10 (relevé du 31/10) : top et flop inchangés.",
   "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel)."
  },
  "veille": {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : outils vidIQ absents de la session (solde 2 crédits au dernier relevé, recharge le 13/11)"
  },
