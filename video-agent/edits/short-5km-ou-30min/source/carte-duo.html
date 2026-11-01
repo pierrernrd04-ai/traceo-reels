@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:900px;height:900px;overflow:hidden;background:#E4ECEF}
+  .panel{position:absolute;top:20px;width:420px;height:860px;border-radius:48px;overflow:hidden;background:#F7FAFB;border:3px solid #C9D7DD;box-sizing:border-box}
+  #pl{left:20px} #pr{left:460px}
+  .panel>svg{position:absolute;left:0;top:0}
+  .pill{position:absolute;left:50%;transform:translateX(-50%);font-family:"TeX Gyre Schola";font-weight:700;border-radius:36px;padding:12px 26px;font-size:36px;white-space:nowrap}
+  .top{top:28px;background:#14232B;color:#F7FAFB}
+  .top b{color:#3CC79A}
+  .side{top:110px;background:transparent;color:#14232B;font-size:30px;padding:0}
+  #same{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);background:#4AA6D8;color:#071C2A;font-family:"TeX Gyre Schola";font-weight:700;border-radius:40px;padding:14px 32px;font-size:40px;white-space:nowrap}
+  #ill{position:absolute;left:52px;top:806px;font-family:"TeX Gyre Schola";font-size:22px;color:#6E8590}
+</style></head>
+<body>
+<div class="panel" id="pl">
+  <svg width="420" height="860" viewBox="0 0 420 860">
+    <rect x="40" y="250" width="90" height="110" rx="16" fill="#DDEBD9"/>
+    <path d="M0 720 C120 690 260 760 420 700 L420 860 L0 860Z" fill="#D6E6EF"/>
+    <g class="streets" stroke="#E2E9EC" stroke-width="10" stroke-linecap="round" fill="none"></g>
+    <path class="glow" fill="none" stroke="#3CC79A" stroke-width="40" stroke-linejoin="round" stroke-linecap="round" opacity="0"/>
+    <path class="loop" fill="none" stroke="#3CC79A" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+    <g><circle cx="210" cy="600" r="28" fill="#14232B"/><circle cx="210" cy="600" r="11" fill="#F7FAFB"/></g>
+  </svg>
+  <div class="pill top">Distance <b>5 km</b></div>
+  <div class="pill side">Gauche</div>
+</div>
+<div class="panel" id="pr">
+  <svg width="420" height="860" viewBox="0 0 420 860">
+    <rect x="290" y="420" width="90" height="100" rx="16" fill="#DDEBD9"/>
+    <path d="M0 720 C120 690 260 760 420 700 L420 860 L0 860Z" fill="#D6E6EF"/>
+    <g class="streets" stroke="#E2E9EC" stroke-width="10" stroke-linecap="round" fill="none"></g>
+    <path class="glow" fill="none" stroke="#4AA6D8" stroke-width="40" stroke-linejoin="round" stroke-linecap="round" opacity="0"/>
+    <path class="loop" fill="none" stroke="#4AA6D8" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+    <g><circle cx="210" cy="600" r="28" fill="#14232B"/><circle cx="210" cy="600" r="11" fill="#F7FAFB"/></g>
+  </svg>
+  <div class="pill top">Durée <b>30 min</b></div>
+  <div class="pill side">Droite</div>
+</div>
+<div id="same">Même porte ✓</div>
+<div id="ill">Illustration</div>
+<script>
+const S=(x,w)=>x<=0?0:1-(1+w*x)*Math.exp(-w*x);
+const cl=x=>Math.max(0,Math.min(1,x));
+const xs=[50,110,170,210,250,310,370], ys=[200,260,330,400,470,540,600,660];
+let d='';
+xs.forEach(x=>d+=`M${x} 180 L${x} 680 `); ys.forEach(y=>d+=`M30 ${y} L390 ${y} `);
+d+='M110 330 L170 260 M250 470 L310 400 M310 600 L370 540';
+document.querySelectorAll('.streets').forEach(g=>{const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',d);g.appendChild(p);});
+const R1='M210 600 L250 600 L310 540 L310 400 L250 330 L170 330 L110 400 L110 540 L170 600 Z';
+const R2='M210 600 L170 600 L110 540 L50 470 L50 260 L110 200 L250 200 L310 260 L370 330 L370 540 L310 600 Z';
+const P=[document.getElementById('pl'),document.getElementById('pr')];
+const parts=P.map((p,i)=>{const loop=p.querySelector('.loop'),glow=p.querySelector('.glow');const r=i?R2:R1;loop.setAttribute('d',r);glow.setAttribute('d',r);const L=loop.getTotalLength();loop.style.strokeDasharray=L;return {p,loop,glow,L};});
+window.setT=function(t){
+  // gauche : 0.3 -> 2.5 ; droite : 3.3 -> 5.5 ; même porte 5.8
+  const a=S(t,10);
+  const lt=[0.3,3.3];
+  parts.forEach((o,i)=>{
+    const k=S(t-lt[i],1.7); o.loop.style.strokeDashoffset=o.L*(1-Math.min(1,k*1.02));
+    const active = i===0 ? (t<3.0||t>5.6) : t>3.0;
+    const dim = i===1 && t<3.0 ? 0.45 : (i===0 && t>=3.0 && t<=5.6 ? 0.55 : 1);
+    o.p.style.opacity=a*dim;
+    const g=S(t-5.8,7); o.glow.setAttribute('opacity',0.28*g);
+  });
+  const s=S(t-5.8,8); const e=document.getElementById('same');
+  e.style.opacity=s; e.style.transform=`translateX(-50%) translateY(${(1-s)*24}px)`;
+  document.getElementById('ill').style.opacity=a;
+};
+window.setT(0);
+</script></body></html>
