@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:900px;height:900px;overflow:hidden;background:#ECE8F3}
+  #card{position:absolute;inset:0;border-radius:56px;overflow:hidden;background:#F8F6FB;border:3px solid #D5CDE4;box-sizing:border-box}
+  #card>svg{position:absolute;inset:0}
+  .pill{position:absolute;font-family:"DM Sans";font-weight:800;border-radius:40px;padding:14px 30px;font-size:38px;white-space:nowrap}
+  #dist{left:36px;top:34px;background:#1E1A2E;color:#F8F6FB;display:flex;gap:16px}
+  #dist b{color:#3CC79A}
+  #ok{right:36px;top:34px;background:#3CC79A;color:#07211A}
+  #neuf{left:50%;bottom:36px;transform:translateX(-50%);background:#4AA6D8;color:#071C2A}
+  #old{left:50%;bottom:36px;transform:translateX(-50%);background:#CFC8DC;color:#1E1A2E}
+  .tag{position:absolute;font-family:"DM Sans";font-weight:800;font-size:30px;background:#1E1A2E;color:#F8F6FB;border-radius:24px;padding:8px 18px;white-space:nowrap}
+</style></head>
+<body><div id="card">
+<svg width="900" height="900" viewBox="0 0 900 900">
+  <path d="M0 150 C200 200 320 110 480 160 S760 220 900 170 L900 0 L0 0Z" fill="#DCE9F1"/>
+  <rect id="parc" x="300" y="380" width="200" height="170" rx="24" fill="#DCEBD9"/>
+  <g id="streets" stroke="#E6E0EE" stroke-width="12" stroke-linecap="round" fill="none"></g>
+  <g stroke="#D3CBE0" stroke-width="20" stroke-linecap="round" fill="none">
+    <path d="M60 470 L840 470"/><path d="M450 220 L450 790"/>
+  </g>
+  <path id="oldl" fill="none" stroke="#A79DBA" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <path id="glow" fill="none" stroke="#3CC79A" stroke-width="44" stroke-linejoin="round" stroke-linecap="round" opacity="0"/>
+  <path id="loop" fill="none" stroke="#3CC79A" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle id="runner" r="20" fill="#FFFFFF" stroke="#A79DBA" stroke-width="8" cx="-50" cy="-50"/>
+  <g><circle cx="450" cy="620" r="32" fill="#1E1A2E"/><circle cx="450" cy="620" r="13" fill="#F8F6FB"/></g>
+</svg>
+<div class="tag" id="t1" style="left:330px;top:440px">même parc</div>
+<div class="tag" id="t2" style="left:500px;top:305px">même feu rouge</div>
+<div class="tag" id="t3" style="left:150px;top:560px">même virage</div>
+<div class="pill" id="old">Le tour du lundi</div>
+<div class="pill" id="dist"><span>Distance</span><b>7 km</b></div>
+<div class="pill" id="ok">Tracée ✓</div>
+<div class="pill" id="neuf">Rues neuves</div>
+</div>
+<script>
+const S=(x,w)=>x<=0?0:1-(1+w*x)*Math.exp(-w*x);
+const cl=x=>Math.max(0,Math.min(1,x));
+const xs=[100,180,260,340,420,500,580,660,740,810], ys=[230,300,380,550,620,700,770];
+let d='';
+xs.forEach(x=>d+=`M${x} 220 L${x} 790 `); ys.forEach(y=>d+=`M60 ${y} L840 ${y} `);
+const sp=document.createElementNS('http://www.w3.org/2000/svg','path'); sp.setAttribute('d',d);
+document.getElementById('streets').appendChild(sp);
+const OLD='M450 620 L500 620 L500 380 L300 380 L300 620 Z';
+const NEW='M450 620 L580 620 L660 700 L740 700 L740 550 L810 470 L740 380 L660 300 L580 230 L420 230 L340 300 L260 300 L180 380 L180 550 L260 620 L340 700 L420 700 L450 620';
+const oldl=document.getElementById('oldl'), loop=document.getElementById('loop'), glow=document.getElementById('glow');
+oldl.setAttribute('d',OLD); loop.setAttribute('d',NEW); glow.setAttribute('d',NEW);
+const LO=oldl.getTotalLength(), L=loop.getTotalLength();
+loop.style.strokeDasharray=L; glow.style.strokeDasharray=L;
+const pin=(id,t0,t)=>{const e=document.getElementById(id);const a=S(t-t0,9);e.style.opacity=a;e.style.transform=`scale(${0.8+0.2*a})`;};
+window.setT=function(t){
+  document.getElementById('card').style.opacity=S(t,10);
+  // phase 1 : le coureur tourne en rond autour du parc (0 → 3)
+  const r=document.getElementById('runner');
+  if(t<3.1){const f=((t*0.55)%1);const p=oldl.getPointAtLength(LO*f);r.setAttribute('cx',p.x);r.setAttribute('cy',p.y);} else {r.setAttribute('cx',-50);r.setAttribute('cy',-50);}
+  pin('t1',0.3,t);pin('t2',1.0,t);pin('t3',1.7,t);
+  const fade=S(t-3.0,6);
+  ['t1','t2','t3'].forEach(i=>{const e=document.getElementById(i); e.style.opacity=parseFloat(e.style.opacity)*(1-fade);});
+  oldl.style.opacity=1-0.75*fade;
+  const ol=document.getElementById('old'); const oa=S(t-0.2,8)*(1-fade); ol.style.opacity=oa;
+  // phase 2 : 7 km, la nouvelle boucle sort (3 → 7)
+  const ds=document.getElementById('dist'); const da=S(t-3.0,8); ds.style.opacity=da; ds.style.transform=`translateY(${(1-da)*-24}px)`;
+  const k=S(t-3.4,1.5); loop.style.strokeDashoffset=L*(1-Math.min(1,k*1.02));
+  const c=S(t-5.8,7); glow.style.strokeDashoffset=L*(1-Math.min(1,k*1.02)); glow.setAttribute('opacity',0.25*c);
+  const ok=document.getElementById('ok'); ok.style.opacity=c; ok.style.transform=`translateY(${(1-c)*-24}px)`;
+  const n=S(t-6.4,8); const ne=document.getElementById('neuf'); ne.style.opacity=n; ne.style.transform=`translateX(-50%) translateY(${(1-n)*24}px)`;
+};
+window.setT(0);
+</script></body></html>

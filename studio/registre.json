@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-01",
+ "maj": "2026-11-02",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -95,7 +95,8 @@
    "youtube": "2026-11-01T18:00",
    "pinterest": null,
    "resultats": {},
-   "instagram_note": "ÉCHEC Metricool 30/10 10:00 : « You have reached your Metricool account limit. » Pas paru."
+   "instagram_note": "ÉCHEC Metricool 30/10 10:00 : « You have reached your Metricool account limit. » Pas paru.",
+   "youtube_statut": "publié le 2026-11-01 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
   },
   {
    "id": "v10-manifeste",
@@ -155,7 +156,8 @@
    "instagram": "2026-11-18T10:00",
    "youtube": "2026-11-02T18:00",
    "pinterest": null,
-   "resultats": {}
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-02 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
   },
   {
    "id": "w06-defi-30-jours",
@@ -394,6 +396,24 @@
    "controles": "contrôle visuel contact.jpg + carte-duo-sheet OK (texte recentré x 470 dans la zone sûre) ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
    "instagram": null,
    "instagram_note": "en tête du stock : outils vidIQ absents de la session du 01/11",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1102-tour-du-lundi",
+   "fichier": "traceo-m1102-tour-du-lundi.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1102-tour-du-lundi.mp4",
+   "angle": "Menu du 02/11, s01 (rang 1, aucun choix de Pierre) : « Stop au tour du lundi : ta boucle de 7 km sort en 10 secondes. » (carte : le coureur tourne autour du même parc, puis la boucle de 7 km sort)",
+   "menu": "2026-11-02/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, DM Sans 800, papier lilas #ECE8F3, encre #1E1A2E, accent violet #6A4FC2, composant HTML carte-lundi (ancien tour puis boucle 7 km), lit « sonar »",
+   "accroche_note": 77.5,
+   "legende_instagram": "Envoie-le à celui qui court le même tour chaque lundi.\n\nToujours le même parc ? Pour ta reprise de la semaine, Traceo trace un parcours de course à pied par des rues que tu n'as jamais courues. Et il te ramène chez toi. Ton footing du lundi change enfin de décor. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Arrête de courir ton tour du lundi : trace une boucle neuve #running",
+   "controles": "contrôle visuel carte-lundi-sheet + contact.jpg OK (texte dans la zone sûre, aucun chevauchement) ; QC h264 1080x1920, 13 s, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 57,1",
+   "instagram": null,
+   "instagram_note": "en tête du stock : outils vidIQ absents de la session du 02/11",
    "youtube": null,
    "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
    "pinterest": null,
@@ -648,10 +668,36 @@
    ],
    "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
    "menu_demain": "studio/menus/2026-11-02.json (11 scripts)"
+  },
+  {
+   "date": "2026-11-02 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques au 01/11). YT : 2 Shorts publiés (01/11 v09, 02/11 w05), 0 vue relevée (YTEV02).",
+   "alerte": "Metricool : les Shorts du 01/11 et du 02/11 sont partis (PUBLISHED). Octobre : toutes les publications après le quota en ERROR « account limit ».",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Ton tour du lundi » → traceo-m1102-tour-du-lundi.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "bilan_semaine_26_10": "0 nouveau Reel IG paru ; 2 Shorts YT parus (01 et 02/11), 0 vue relevée ; 6 vidéos créées (m1027, m1028, m1029, m1030, m1031, m1101) + m1102 aujourd'hui",
+   "menu_demain": "studio/menus/2026-11-03.json (12 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -693,16 +739,17 @@
     ">3s": 15.8
    }
   ],
-  "note": "Aucun nouveau Reel paru depuis le 17/10 (relevé du 01/11) : top et flop inchangés.",
-  "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel)."
+  "note": "Aucun nouveau Reel paru depuis le 17/10 (relevé du 02/11, chiffres identiques au 01/11) : top et flop inchangés. YouTube : premiers Shorts publiés (v09 le 01/11, w05 le 02/11), 0 vue relevée par Metricool (YTEV02) au 02/11.",
+  "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
+  "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
  },
  "veille": {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : outils vidIQ absents de la session (recharge le 13/11)"
  },
  "metricool_quota": {
   "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
-  "2026-11": "20/20 (plein : IG 10, YT 10), vérifié le 24/10 avec getScheduledPosts"
+  "2026-11": "20/20 (plein : IG 10, YT 10 dont 2 déjà publiés les 01 et 02/11), revérifié le 02/11 avec getScheduledPosts"
  }
 }
