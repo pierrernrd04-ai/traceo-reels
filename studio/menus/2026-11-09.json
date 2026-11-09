@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-09",
+  "genere": "2026-11-08T17:45:00+01:00",
+  "note": "Sans choix de ta part avant 17 h 10, je prends le n°1. Instagram : le connecteur vidIQ doit être reconnecté dans Claude ; YouTube en attente (quota Metricool de novembre plein, 20/20).",
+  "scripts": [
+    {
+      "accroche": "4 excuses du lundi soir, classées. La 4e se règle en 10 secondes.",
+      "duree": 15,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "4 excuses du lundi soir, classées."
+        },
+        {
+          "t": "3–7 s",
+          "texte": "4. Il pleut. 3. Il fait déjà nuit."
+        },
+        {
+          "t": "7–11 s",
+          "texte": "2. J'ai la flemme. 1. Je connais déjà le parcours."
+        },
+        {
+          "t": "11–15 s",
+          "texte": "La n°1 se règle en 10 secondes : une boucle neuve. Lien en bio."
+        }
+      ],
+      "id": "s01",
+      "legende": "Dis en commentaire laquelle est la tienne.\n\nLa pluie, la nuit, la flemme… et « je connais déjà le parcours ». Celle-là, Traceo la règle : un parcours de course à pied par des rues nouvelles, depuis chez toi, en 10 secondes environ.\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Liste avec favori (#11 Numbered With A Favourite)",
+      "note_accroche": 45.2,
+      "pourquoi": "Classement façon tier list, en humour complice : le Reel « Tier list » du 07/11 a fait 202 vues et 37,6 % de vues au-delà de 3 s, presque le double de « On doit parler » (19,9 %).",
+      "rang": 1,
+      "titre": "Les excuses du lundi",
+      "titre_youtube": "4 excuses pour ne pas courir le lundi, classées #running"
+    },
+    {
+      "accroche": "Stop : ne cours pas ton lundi au hasard. Règle 45 minutes, ta boucle sort.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Stop : ne cours pas ton lundi au hasard."
+        },
+        {
+          "t": "3–7 s",
+          "texte": "Règle 45 minutes."
+        },
+        {
+          "t": "7–10 s",
+          "texte": "Ta boucle sort, par des rues que tu n'as jamais courues."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Et elle te ramène à ta porte. Lien en bio."
+        }
+      ],
+      "id": "s02",
+      "legende": "Enregistre-le pour ta sortie de ce soir.\n\nPlutôt une durée qu'une distance ? Traceo trace un parcours de course à pied de 10 min à 4 h, depuis chez toi, et te ramène au départ. Ton footing du lundi a enfin un plan. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "L'ordre négatif (#2 Negative Command)",
+      "note_accroche": 68.8,
+      "pourquoi": "Démonstration d'une fonction (choisir une durée) : l'audit retient ce format, et « Niveau 1/2 », qui montrait le produit en action, a tenu 44,1 % au-delà de 3 s.",
+      "rang": 2,
+      "titre": "Pas au hasard",
+      "titre_youtube": "Ne cours plus au hasard : règle 45 minutes, ta boucle sort #running"
+    },
+    {
+      "accroche": "Je règle 35 minutes, mode nuit. Regarde la boucle qui sort.",
+      "duree": 14,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Je règle 35 minutes, mode nuit."
+        },
+        {
+          "t": "3–7 s",
+          "texte": "La carte passe en sombre, contrastée."
+        },
+        {
+          "t": "7–11 s",
+          "texte": "La boucle sort : des rues jamais courues."
+        },
+        {
+          "t": "11–14 s",
+          "texte": "Guidage vocal, retour à ta porte. Lien en bio."
+        }
+      ],
+      "id": "s03",
+      "legende": "Envoie-le à ton binôme du soir.\n\nEn novembre, ton footing se court souvent de nuit. Traceo a un mode nuit et une carte contrastée, plus un guidage vocal, pour un parcours de course à pied neuf qui te ramène chez toi. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "La démo à froid (#18 Cold Open Demo)",
+      "note_accroche": 50.6,
+      "pourquoi": "Démo à froid d'une vraie fonction, au moment où les sorties passent de nuit ; la démonstration produit fait partie des formats que l'audit dit de refaire.",
+      "rang": 3,
+      "titre": "35 minutes, mode nuit",
+      "titre_youtube": "Courir de nuit : 35 minutes, mode nuit, une boucle neuve #running"
+    },
+    {
+      "accroche": "« Il pleut, je ne cours pas loin. » Parfait : règle 3 km, tu rentres vite.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "« Il pleut, je ne cours pas loin. »"
+        },
+        {
+          "t": "3–6 s",
+          "texte": "Parfait : règle 3 km."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "Une petite boucle, par des rues que tu n'as jamais courues."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Retour à ta porte. Lien en bio."
+        }
+      ],
+      "id": "s04",
+      "legende": "Enregistre-le pour le prochain jour de pluie.\n\nPas envie d'aller loin ? Traceo trace des boucles de course à pied dès 2 km, depuis chez toi, et te ramène pile au départ. Un petit footing, mais neuf. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "L'objection (#12 The Objection)",
+      "note_accroche": 38,
+      "pourquoi": "Objection du quotidien tournée en humour complice, le registre que l'audit dit de refaire (« 10 000 pas » : 50,2 % au-delà de 3 s).",
+      "rang": 4,
+      "titre": "Il pleut",
+      "titre_youtube": "Il pleut ? Règle 3 km, ta boucle de running te ramène chez toi #running"
+    },
+    {
+      "accroche": "Si tu cours seul le lundi soir, regarde ce bouton.",
+      "duree": 14,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Si tu cours seul le lundi soir, regarde ce bouton."
+        },
+        {
+          "t": "3–7 s",
+          "texte": "« Je pars courir »."
+        },
+        {
+          "t": "7–11 s",
+          "texte": "Il prévient les coureurs à moins de 5 km. Positions arrondies."
+        },
+        {
+          "t": "11–14 s",
+          "texte": "Mode invisible si tu veux. Premium. Lien en bio."
+        }
+      ],
+      "id": "s05",
+      "legende": "Envoie-le à quelqu'un qui court seul.\n\nAvec Traceo Premium, le bouton « Je pars courir » prévient les coureurs à moins de 5 km, avec des positions arrondies, un mode invisible et des messages. Pour trouver un partenaire de running près de chez toi.\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Si c'est toi, regarde (#10 If This, Then Watch)",
+      "note_accroche": 30,
+      "pourquoi": "Interpellation d'un public précis sur une fonction Premium jamais montrée seule en Reel ; v09 « Jamais seul », sur le même sujet, est parti en Short le 01/11.",
+      "rang": 5,
+      "titre": "Seul le lundi soir",
+      "titre_youtube": "Tu cours seul le soir ? Regarde ce bouton #running"
+    },
+    {
+      "accroche": "Tu n'as pas besoin d'un plan pour reprendre lundi. Juste 2 km de rues neuves.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Tu n'as pas besoin d'un plan pour reprendre."
+        },
+        {
+          "t": "3–6 s",
+          "texte": "Juste 2 km."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "De rues que tu n'as jamais courues, depuis ta porte."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Sans compte pour ta 1re sortie. Lien en bio."
+        }
+      ],
+      "id": "s06",
+      "legende": "Trace ta boucle gratuite : lien en bio.\n\nReprendre la course à pied sans plan compliqué : Traceo trace un parcours de 2 km à 42 km depuis chez toi, dans le navigateur du téléphone, sans compte pour ta première sortie. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "La permission (#20 Permission)",
+      "note_accroche": 38,
+      "pourquoi": "Permission rassurante pour la reprise du lundi, avec deux faits produit simples (2 km, sans compte).",
+      "rang": 6,
+      "titre": "Reprendre lundi",
+      "titre_youtube": "Reprendre la course à pied : juste 2 km de rues neuves #running"
+    },
+    {
+      "accroche": "Rome ne s'est pas faite en un jour. Ta boucle de 10 km, si : 10 secondes.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Rome ne s'est pas faite en un jour."
+        },
+        {
+          "t": "3–6 s",
+          "texte": "Ta boucle de 10 km, si."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "10 secondes environ, et plusieurs itinéraires comparés."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "On garde celui qui a le plus de rues nouvelles. Lien en bio."
+        }
+      ],
+      "id": "s07",
+      "legende": "Commente « Rome » si tu cours ce soir.\n\nTraceo compare plusieurs itinéraires et garde le parcours de course à pied qui a le plus de rues nouvelles, en 10 secondes environ. Ta boucle de running part de chez toi. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Le proverbe retourné (#22 Contrarian Flip)",
+      "note_accroche": 36.7,
+      "pourquoi": "Proverbe retourné : un clin d'œil immédiat qui mène droit à une fonction (comparer plusieurs itinéraires).",
+      "rang": 7,
+      "titre": "Rome en 10 secondes",
+      "titre_youtube": "Rome ne s'est pas faite en un jour, ta boucle de 10 km si #running"
+    },
+    {
+      "accroche": "Personne ne te le dit : Traceo se souvient des rues qu'il t'a déjà proposées.",
+      "duree": 14,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Personne ne te le dit :"
+        },
+        {
+          "t": "3–7 s",
+          "texte": "Traceo se souvient des rues qu'il t'a déjà proposées."
+        },
+        {
+          "t": "7–11 s",
+          "texte": "Alors la boucle de demain cherche ailleurs."
+        },
+        {
+          "t": "11–14 s",
+          "texte": "Une boucle neuve à chaque sortie. Lien en bio."
+        }
+      ],
+      "id": "s08",
+      "legende": "Enregistre-le pour ta prochaine sortie.\n\nTraceo se souvient des rues déjà proposées : chaque parcours de course à pied part de chez toi, mais par d'autres rues. Ton footing ne tourne plus en rond. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Ce que personne ne dit (#3 Nobody Tells You)",
+      "note_accroche": 32.5,
+      "pourquoi": "Fonction peu connue (la mémoire des rues) racontée comme un secret ; « Demain pas ici », sur le même fait, est parti en Short le 06/11.",
+      "rang": 8,
+      "titre": "Il se souvient",
+      "titre_youtube": "Ton appli de course se souvient de tes rues ? Celle-ci oui #running"
+    },
+    {
+      "accroche": "Ton parcours de 8 km : avant, tracé à la main sur une carte. Maintenant, 10 secondes.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Ton parcours de 8 km :"
+        },
+        {
+          "t": "3–6 s",
+          "texte": "Avant, tracé à la main sur une carte."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "Maintenant : 10 secondes environ."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Et il revient à ta porte. Lien en bio."
+        }
+      ],
+      "id": "s09",
+      "legende": "Envoie-le à celui qui trace encore ses parcours à la main.\n\nTraceo trace un parcours de course à pied de la distance que tu veux, de 2 à 42 km, en 10 secondes environ, depuis chez toi. Ta boucle de running est prête avant tes lacets. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Le temps qui s'effondre (#5 Time Collapse)",
+      "note_accroche": 45.2,
+      "pourquoi": "Avant / après chronométré : la mécanique du gain de temps, appuyée sur le fait produit des 10 secondes.",
+      "rang": 9,
+      "titre": "À la main, c'est fini",
+      "titre_youtube": "Tracer un parcours de 8 km à la main ? Plus besoin #running"
+    },
+    {
+      "accroche": "La boucle la plus longue de Traceo : 4 h de course, et tu rentres chez toi.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "La boucle la plus longue de Traceo :"
+        },
+        {
+          "t": "3–6 s",
+          "texte": "4 h de course."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "Ou 42 km, par des rues que tu n'as jamais courues."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Et tu rentres à ta porte. Lien en bio."
+        }
+      ],
+      "id": "s10",
+      "legende": "Enregistre-le pour ta prochaine sortie longue.\n\nPour ta sortie longue, Traceo trace un parcours de course à pied jusqu'à 4 h ou 42 km, depuis chez toi, et te ramène au départ. Export Strava, Garmin ou GPX.\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "Le superlatif (#26 The Superlative)",
+      "note_accroche": 36.7,
+      "pourquoi": "Superlatif net sur une limite réelle du produit, pour le public marathon et trail urbain.",
+      "rang": 10,
+      "titre": "4 heures",
+      "titre_youtube": "Une boucle de running de 4 h qui te ramène chez toi #running"
+    },
+    {
+      "accroche": "Voici la carte contrastée de Traceo : ta boucle de 6 km, lisible en pleine course.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "Voici la carte contrastée de Traceo."
+        },
+        {
+          "t": "3–7 s",
+          "texte": "Ta boucle de 6 km, lisible en pleine course."
+        },
+        {
+          "t": "7–10 s",
+          "texte": "Le guidage vocal te dit où tourner."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Tu gardes les yeux sur la route. Lien en bio."
+        }
+      ],
+      "id": "s11",
+      "legende": "Trace ta boucle gratuite : lien en bio.\n\nUne carte contrastée et un guidage vocal : ton parcours de course à pied se suit sans t'arrêter. Traceo trace ta boucle de running depuis chez toi. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "La révélation (#24 The Reveal)",
+      "note_accroche": 36.7,
+      "pourquoi": "Révélation d'un écran du produit (carte contrastée + voix) : montrer la fonction plutôt que l'ambiance.",
+      "rang": 11,
+      "titre": "Carte lisible",
+      "titre_youtube": "La carte de running qu'on lit en pleine course #running"
+    },
+    {
+      "accroche": "« Et si je veux la courir avec ma montre ? » Export Garmin, Strava ou GPX.",
+      "duree": 13,
+      "ecrans": [
+        {
+          "t": "0–3 s",
+          "texte": "« Et si je veux la courir avec ma montre ? »"
+        },
+        {
+          "t": "3–6 s",
+          "texte": "Tu l'exportes."
+        },
+        {
+          "t": "6–10 s",
+          "texte": "Vers Garmin, Strava, ou en GPX."
+        },
+        {
+          "t": "10–13 s",
+          "texte": "Ta boucle neuve, à ton poignet. Lien en bio."
+        }
+      ],
+      "id": "s12",
+      "legende": "Enregistre-le avant ta prochaine sortie.\n\nTon parcours de course à pied Traceo s'exporte vers Strava, Garmin ou en fichier GPX pour ta montre. Une boucle de running neuve, depuis chez toi.\n\n#running #courseapied #footing #parcoursrunning",
+      "mecanique": "La question telle quelle (#16 The Verbatim Question)",
+      "note_accroche": 38.1,
+      "pourquoi": "Question réelle d'un coureur équipé, réponse en un fait produit ; « La montre » est programmé en Reel le 17/11.",
+      "rang": 12,
+      "titre": "Avec ma montre",
+      "titre_youtube": "Ta boucle de running sur ta montre : Garmin, Strava ou GPX #running"
+    }
+  ]
+}

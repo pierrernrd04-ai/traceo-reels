@@ -1,816 +1,889 @@
 {
-  "maj": "2026-11-07",
-  "videos": [
-    {
-      "id": "v01-meme-endroit",
-      "fichier": "traceo-v01-meme-endroit.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v01-meme-endroit.mp4",
-      "angle": "Accroche question : « Marre de toujours courir au même endroit ? »",
-      "instagram": "2026-10-20T18:00",
-      "youtube": "2026-10-20T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "instagram_note": "20/10 18:00 (Metricool) : absent des stats IG et de YouTube le 21/10, sans doute refusé pour la même limite de compte."
-    },
-    {
-      "id": "v02-156",
-      "fichier": "traceo-v02-156.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v02-156.mp4",
-      "angle": "Chiffre choc : 156 fois le même tour par an",
-      "instagram": "2026-10-24T10:00",
-      "youtube": "2026-10-24T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "instagram_note": "ÉCHEC Metricool 24/10 10:00 : statut ERROR (limite du compte Metricool). Pas paru."
-    },
-    {
-      "id": "v03-yeux-fermes",
-      "fichier": "traceo-v03-yeux-fermes.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v03-yeux-fermes.mp4",
-      "angle": "Défi/question : dessiner son parcours les yeux fermés",
-      "instagram": "2026-10-21T10:00",
-      "youtube": "2026-10-22T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "instagram_note": "ÉCHEC Metricool 21/10 10:00 : « You have reached your Metricool account limit » (post 399749355, statut ERROR). Pas paru.",
-      "youtube_note": "ÉCHEC Metricool 22/10 18:00 : « You have reached your Metricool account limit. »"
-    },
-    {
-      "id": "v04-trois-gestes",
-      "fichier": "traceo-v04-trois-gestes.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v04-trois-gestes.mp4",
-      "angle": "Tuto produit en 3 gestes (distance ou durée)",
-      "instagram": "2026-10-23T10:00",
-      "youtube": "2026-10-26T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "instagram_note": "ÉCHEC Metricool 23/10 10:00 : « You have reached your Metricool account limit. »"
-    },
-    {
-      "id": "v05-le-choix",
-      "fichier": "traceo-v05-le-choix.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v05-le-choix.mp4",
-      "angle": "Comment Traceo choisit la boucle (comparaison d'itinéraires)",
-      "instagram": "2026-10-28T10:00",
-      "youtube": "2026-10-30T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "v06-mode-nuit",
-      "fichier": "traceo-v06-mode-nuit.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v06-mode-nuit.mp4",
-      "angle": "Cas d'usage : courir le soir, mode nuit",
-      "instagram": "2026-10-27T18:00",
-      "youtube": "2026-10-28T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "v07-marcheurs",
-      "fichier": "traceo-v07-marcheurs.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v07-marcheurs.mp4",
-      "angle": "Cible marcheurs (BROUILLON Instagram, attend la validation de Pierre)",
-      "instagram": "2026-11-03T18:00 (brouillon)",
-      "youtube": null,
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "v08-randonnee",
-      "fichier": "traceo-v08-randonnee.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v08-randonnee.mp4",
-      "angle": "Cible randonneurs (BROUILLON Instagram, attend la validation de Pierre)",
-      "instagram": "2026-11-04T10:00 (brouillon)",
-      "youtube": null,
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "v09-jamais-seul",
-      "fichier": "traceo-v09-jamais-seul.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v09-jamais-seul.mp4",
-      "angle": "Fonction sociale Premium « Je pars courir »",
-      "instagram": "2026-10-30T10:00",
-      "youtube": "2026-11-01T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "instagram_note": "ÉCHEC Metricool 30/10 10:00 : « You have reached your Metricool account limit. » Pas paru.",
-      "youtube_statut": "publié le 2026-11-01 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
-    },
-    {
-      "id": "v10-manifeste",
-      "fichier": "traceo-v10-manifeste.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v10-manifeste.mp4",
-      "angle": "Manifeste de marque",
-      "instagram": "2026-10-31T10:00",
-      "youtube": "2026-11-03T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "youtube_statut": "publié le 2026-11-03 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/mZ-BXXtiU4w, vérifié le 07/11)"
-    },
-    {
-      "id": "w01-on-doit-parler",
-      "fichier": "traceo-w01-on-doit-parler.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w01-on-doit-parler.mp4",
-      "angle": "Humour : conversation SMS avec « ton tour habituel »",
-      "instagram": "2026-11-06T10:00",
-      "youtube": "2026-10-21T18:00",
-      "pinterest": null,
-      "resultats": {
-        "2026-11-07": {
-          "instagram": {
-            "url": "https://www.instagram.com/reel/DfZPRVYGRzP/",
-            "publie": "2026-11-06T10:02",
-            "vues": 180,
-            "couverture": 141,
-            "partages": 0,
-            "enregistrements": 0,
-            "commentaires": 0,
-            "jaime": 0,
-            "duree_moy_s": 3.204,
-            "vue_3s_pct": 20.4
-          }
-        }
-      },
-      "instagram_statut": "publié le 2026-11-06 10:00 (Metricool PUBLISHED)"
-    },
-    {
-      "id": "w02-debloque-ta-ville",
-      "fichier": "traceo-w02-debloque-ta-ville.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w02-debloque-ta-ville.mp4",
-      "angle": "Jeu vidéo pixel, ville à débloquer (gamification)",
-      "instagram": "2026-11-10T18:00",
-      "youtube": "2026-10-25T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "w03-tier-list",
-      "fichier": "traceo-w03-tier-list.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w03-tier-list.mp4",
-      "angle": "Tier list des excuses (participation en commentaire)",
-      "instagram": "2026-11-07T10:00",
-      "youtube": "2026-10-23T18:00",
-      "pinterest": null,
-      "resultats": {
-        "2026-11-07": {
-          "instagram": {
-            "url": "https://www.instagram.com/reel/Dfb0CXcGUSs/",
-            "publie": "2026-11-07T10:02",
-            "vues": 152,
-            "couverture": 136,
-            "partages": 0,
-            "enregistrements": 0,
-            "commentaires": 0,
-            "jaime": 0,
-            "duree_moy_s": 4.767,
-            "vue_3s_pct": 39.0
-          }
-        }
-      },
-      "instagram_statut": "publié le 2026-11-07 10:00 (Metricool PUBLISHED)"
-    },
-    {
-      "id": "w04-un-an",
-      "fichier": "traceo-w04-un-an.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w04-un-an.mp4",
-      "angle": "Écran partagé avant/après sur un an",
-      "instagram": "2026-11-13T10:00",
-      "youtube": "2026-10-27T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "w05-le-chrono",
-      "fichier": "traceo-w05-le-chrono.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w05-le-chrono.mp4",
-      "angle": "Chrono : boucle tracée en ~10 s",
-      "instagram": "2026-11-18T10:00",
-      "youtube": "2026-11-02T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "youtube_statut": "publié le 2026-11-02 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
-    },
-    {
-      "id": "w06-defi-30-jours",
-      "fichier": "traceo-w06-defi-30-jours.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w06-defi-30-jours.mp4",
-      "angle": "Lancement du défi #UneRueParSortie",
-      "instagram": "2026-11-14T10:00",
-      "youtube": "2026-11-14T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "w07-la-montre",
-      "fichier": "traceo-w07-la-montre.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w07-la-montre.mp4",
-      "angle": "POV montre GPS, export Strava/Garmin/GPX",
-      "instagram": "2026-11-17T18:00",
-      "youtube": "2026-10-29T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "w08-ta-boucle-dit",
-      "fichier": "traceo-w08-ta-boucle-dit.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w08-ta-boucle-dit.mp4",
-      "angle": "Quiz : ce que ta boucle dit de toi",
-      "instagram": "2026-11-20T10:00",
-      "youtube": "2026-10-31T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "w09-commente-ta-ville",
-      "fichier": "traceo-w09-commente-ta-ville.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w09-commente-ta-ville.mp4",
-      "angle": "Carte de France : commente ta ville",
-      "instagram": "2026-11-11T10:00",
-      "youtube": "2026-11-04T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "youtube_statut": "publié le 2026-11-04 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/_nQifx4F3go, vérifié le 07/11)"
-    },
-    {
-      "id": "w10-le-ticket",
-      "fichier": "traceo-w10-le-ticket.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w10-le-ticket.mp4",
-      "angle": "Ticket de caisse : combien coûte une boucle",
-      "instagram": "2026-11-21T10:00",
-      "youtube": "2026-11-05T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "youtube_statut": "publié le 2026-11-05 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/xEq3oNxRRtA, vérifié le 07/11)"
-    },
-    {
-      "id": "x01-meme-tour",
-      "fichier": "traceo-x01-meme-tour.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-x01-meme-tour.mp4",
-      "angle": "Papier seul (moteur short-editing) : « Tu cours encore le même tour ? », 156 fois barré, boucle neuve, 10 s",
-      "format": "1080x1920, 15 s, moteur short-editing (formation Editing IA)",
-      "instagram": null,
-      "youtube": null,
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1019-demain-pas-ici",
-      "fichier": "traceo-m1019-demain-pas-ici.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1019-demain-pas-ici.mp4",
-      "angle": "Menu du 19/10, s03 choisi par Pierre : « Demain, tu ne courras pas ici. » (mémoire des rues déjà proposées)",
-      "menu": "2026-10-19/s03",
-      "format": "1080x1920, 14 s, moteur short-editing, Instrument Serif, papier bleu froid, lit « enquete »",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 19/10",
-      "youtube": "2026-11-06T18:00",
-      "pinterest": null,
-      "resultats": {},
-      "youtube_statut": "publié le 2026-11-06 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/6-HWUaMAvDo, vérifié le 07/11)"
-    },
-    {
-      "id": "w3-01-niveaux",
-      "fichier": "traceo-w3-01-niveaux.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w3-01-niveaux.mp4",
-      "angle": "Les niveaux du coureur (script s02 du menu du 19/10, non choisi) : même tour, autre sens, hasard, boucle neuve",
-      "menu": "2026-10-19/s02",
-      "format": "2160x3840, 16,4 s, méthode 1 (scenes_w3), FreeSans + Charter italique, sable et terracotta, UK garage",
-      "instagram": null,
-      "youtube": "2026-11-07T18:00",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1020-le-diamant",
-      "fichier": "traceo-m1020-le-diamant.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1020-le-diamant.mp4",
-      "angle": "Menu du 20/10, s01 (rang 1, aucun choix de Pierre) : « 100 sorties = 1 diamant Traceo. Voici ce qu'il te donne. » (31 jours de Premium)",
-      "menu": "2026-10-20/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, Archivo Black + Archivo, papier lilas #ECE8F4, encre #1D1530, accent #16896A, lit « sonar »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Enregistre-le pour ne pas oublier.\n\nAvec Traceo, chaque fois que tu atteins 100 sorties, tu gagnes un diamant : 31 jours de Premium. Ton parcours de course à pied change à chaque footing, et tes sorties comptent.\n\nTrace ta boucle depuis chez toi, de 2 à 42 km, par des rues que tu n'as jamais courues.\n\n#running #courseapied #footing #motivationrunning",
-      "instagram": null,
-      "youtube": "2026-11-08T18:00",
-      "youtube_metricool_id": 401217449,
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1021-meme-6-km",
-      "fichier": "traceo-m1021-meme-6-km.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1021-meme-6-km.mp4",
-      "angle": "Menu du 21/10, s01 (rang 1, aucun choix de Pierre) : « Même 6 km. Ton tour habituel ou 6 km de rues neuves ? » (face-à-face gauche/droite)",
-      "menu": "2026-10-21/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, Bowlby One SC + DM Sans, papier crème #F2EEE4, encre #13202A, accent #1F7FB5, lit « neon »",
-      "accroche_note": 49.3,
-      "legende_instagram": "Commente GAUCHE ou DROITE.\n\nMême distance, même effort, mais pas le même footing. Traceo trace ton parcours de course à pied depuis chez toi, par des rues nouvelles, et te ramène au départ.\n\n#running #courseapied #footing #parcoursrunning",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 21/10",
-      "youtube": "2026-11-09T18:00",
-      "youtube_metricool_id": 402251768,
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1024-mode-nuit",
-      "fichier": "traceo-m1024-mode-nuit.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1024-mode-nuit.mp4",
-      "angle": "Menu du 24/10, s01 (rang 1, aucun choix de Pierre) : « 21 h, mode nuit activé. Regarde la boucle qui sort. » (démo carte nuit, boucle, guidage vocal)",
-      "menu": "2026-10-24/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, Inter 800 + JetBrains Mono, papier nuit #0E151F, encre #E8EEF3, accent #3CC79A, composant HTML carte-nuit, lit « code-noir »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Enregistre-le pour ta prochaine sortie du soir.\n\nCourir le soir sans chercher son parcours : Traceo trace une boucle de running depuis chez toi, avec une carte contrastée en mode nuit et un guidage vocal. Tu reviens à ton point de départ.\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "21 h, mode nuit : ta boucle de course du soir en 10 secondes #running",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 24/10",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1027-une-autre-rue",
-      "fichier": "traceo-m1027-une-autre-rue.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1027-une-autre-rue.mp4",
-      "angle": "Menu du 27/10, s01 (rang 1, aucun choix de Pierre) : « 1 rue courue ce soir. Demain, Traceo t'en propose 1 autre. » (mémoire des rues déjà proposées)",
-      "menu": "2026-10-27/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, Poppins SemiBold, papier sauge #EDF2E8, encre #18241C, accent #1B8F86, lit « filature »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Enregistre-le pour ta prochaine sortie.\n\nTon prochain parcours de course à pied, de 5 ou 10 km, passe ailleurs : Traceo se souvient des rues qu'il t'a déjà proposées. Ton footing ne tourne plus en rond.\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Traceo se souvient de tes rues : un parcours de course différent demain #running",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 27/10",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1028-le-vrai-plus-dur",
-      "fichier": "traceo-m1028-le-vrai-plus-dur.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1028-le-vrai-plus-dur.mp4",
-      "angle": "Menu du 28/10, s01 (rang 1, aucun choix de Pierre) : « Le plus dur de tes 5 km ? Ce n'est pas courir. C'est choisir où. » (Traceo trace ta boucle en 10 s)",
-      "menu": "2026-10-28/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, Lora Bold + Archivo, papier abricot #F5ECDF, encre aubergine #2B1B33, accent #2A7FB8, chrono 00:10, lit « thriller »",
-      "accroche_note": 42.2,
-      "accroche_retenue": "Tes 5 km meurent avant le départ : le plus dur, c'est choisir où courir. (écrans du menu conservés)",
-      "legende_instagram": "Envoie-le à 1 ami qui hésite toujours avant ses 5 km.\n\nTon parcours de course à pied part de chez toi et y revient, par des rues que tu n'as jamais courues. Tu choisis la distance, Traceo choisit les rues de ton footing.\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Le plus dur du footing, c'est de choisir où courir #running",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 28/10",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1029-40-minutes",
-      "fichier": "traceo-m1029-40-minutes.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1029-40-minutes.mp4",
-      "angle": "Menu du 29/10, s01 (rang 1, aucun choix de Pierre) : « Je règle 40 minutes. Regarde la boucle qui sort. » (durée 10 min à 4 h, comparaison d'itinéraires, retour au départ)",
-      "menu": "2026-10-29/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, TeX Gyre Adventor, papier pierre #EEEFEA, encre #17202B, accent #1E8F6E, composant HTML carte-40 (3 itinéraires comparés, 1 gardé), lit « arpege »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Enregistre-le pour ta prochaine sortie de 40 minutes.\n\nPas envie de compter les km ? Choisis une durée, de 10 min à 4 h : Traceo trace ton parcours de course à pied depuis chez toi et te ramène au départ. Ton footing tient dans ton créneau. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Je règle 40 minutes : ma boucle de course sort en 10 secondes #running",
-      "controles": "caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6 (voix calibrée sur l'anglais)",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 29/10",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1030-chauffe-10s",
-      "fichier": "traceo-m1030-chauffe-10s.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1030-chauffe-10s.mp4",
-      "angle": "Menu du 30/10, s01 (rang 1, aucun choix de Pierre) : « Ta chauffe dure 3 minutes. Ta boucle de 5 km, 10 secondes. » (chronos 03:00 puis 00:10, depuis ta porte, rues nouvelles)",
-      "menu": "2026-10-30/s01",
-      "format": "1080x1920, 13 s, moteur short-editing, Bricolage Grotesque 800, papier gris perle #E9EDF2, encre marine #10233A, accent #2F86C2, lit « compte-a-rebours »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Trace ta boucle gratuite : lien en bio.\n\nPendant que tu t'échauffes, Traceo trace ton parcours de course à pied de 5 km depuis chez toi, en 10 secondes environ, sans appli à télécharger.\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Ta chauffe dure plus longtemps que le tracé de ta boucle #running",
-      "controles": "caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 57,6 (voix calibrée sur l'anglais)",
-      "instagram": null,
-      "instagram_note": "en tête du stock : vidIQ indisponible dans la session du 30/10 (et traceo.io non connecté jusqu'ici)",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1031-je-tape-2-km",
-      "fichier": "traceo-m1031-je-tape-2-km.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1031-je-tape-2-km.mp4",
-      "angle": "Menu du 31/10, s01 (rang 1, aucun choix de Pierre) : « Je tape 2 km. Regarde la plus petite boucle sortir. » (démo carte, boucle depuis la porte, retour au départ)",
-      "menu": "2026-10-31/s01",
-      "format": "1080x1920, 13 s, moteur short-editing, TeX Gyre Heros Cn, papier rosé #F3E6E1, encre brun #2B1D1A, accent #1C7DB0, composant HTML carte-2km, lit « labo »",
-      "accroche_note": 50.6,
-      "legende_instagram": "Trace ta boucle gratuite : lien en bio.\n\nUn petit footing de reprise ? Règle 2 km : Traceo trace ton parcours de course à pied depuis chez toi, par des rues que tu n'as jamais courues, et te ramène au départ. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Je tape 2 km : ma plus petite boucle de course sort en 10 secondes #running",
-      "controles": "contrôle visuel contact.jpg + carte-2km-sheet OK ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
-      "instagram": null,
-      "instagram_note": "en tête du stock : outils vidIQ absents de la session du 31/10",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1101-5km-ou-30min",
-      "fichier": "traceo-m1101-5km-ou-30min.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1101-5km-ou-30min.mp4",
-      "angle": "Menu du 01/11, s01 (rang 1, aucun choix de Pierre) : « 5 km ou 30 minutes » (face-à-face : deux boucles, distance et durée, depuis la même porte)",
-      "menu": "2026-11-01/s01",
-      "format": "1080x1920, 14 s, moteur short-editing, TeX Gyre Schola, papier bleu glacier #E4ECEF, encre #14232B, accent terracotta #B5502A, composant HTML carte-duo (2 cartes côte à côte), lit « enquete »",
-      "accroche_note": 50.6,
-      "accroche_retenue": "Tu cours 5 km ou 30 minutes ? Regarde les 2 boucles sortir. (menu : 49,3)",
-      "legende_instagram": "Dis en commentaire : tu cours à la distance ou à la durée ?\n\nTon parcours de course à pied, réglé en kilomètres (2 à 42 km) ou en minutes (10 min à 4 h) : Traceo trace ta boucle de running depuis chez toi et te ramène au départ. Pour un footing de 5 km comme de 30 minutes. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Courir 5 km ou 30 minutes : deux boucles, même départ #running",
-      "controles": "contrôle visuel contact.jpg + carte-duo-sheet OK (texte recentré x 470 dans la zone sûre) ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
-      "instagram": null,
-      "instagram_note": "en tête du stock : outils vidIQ absents de la session du 01/11",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    },
-    {
-      "id": "m1102-tour-du-lundi",
-      "fichier": "traceo-m1102-tour-du-lundi.mp4",
-      "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1102-tour-du-lundi.mp4",
-      "angle": "Menu du 02/11, s01 (rang 1, aucun choix de Pierre) : « Stop au tour du lundi : ta boucle de 7 km sort en 10 secondes. » (carte : le coureur tourne autour du même parc, puis la boucle de 7 km sort)",
-      "menu": "2026-11-02/s01",
-      "format": "1080x1920, 13 s, moteur short-editing, DM Sans 800, papier lilas #ECE8F3, encre #1E1A2E, accent violet #6A4FC2, composant HTML carte-lundi (ancien tour puis boucle 7 km), lit « sonar »",
-      "accroche_note": 77.5,
-      "legende_instagram": "Envoie-le à celui qui court le même tour chaque lundi.\n\nToujours le même parc ? Pour ta reprise de la semaine, Traceo trace un parcours de course à pied par des rues que tu n'as jamais courues. Et il te ramène chez toi. Ton footing du lundi change enfin de décor. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
-      "titre_youtube": "Arrête de courir ton tour du lundi : trace une boucle neuve #running",
-      "controles": "contrôle visuel carte-lundi-sheet + contact.jpg OK (texte dans la zone sûre, aucun chevauchement) ; QC h264 1080x1920, 13 s, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 57,1",
-      "instagram": null,
-      "instagram_note": "en tête du stock : outils vidIQ absents de la session du 02/11",
-      "youtube": null,
-      "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
-      "pinterest": null,
-      "resultats": {}
-    }
-  ],
-  "journal": [
-    {
-      "date": "2026-10-19",
-      "mesure": "IG 28 j : 26 Reels hors registre, 6421 vues ; YT : 0 Short publié. Aucune vidéo du registre encore en ligne.",
-      "top": [
-        "Reel 12/10 sans légende (2 partages, 1 enreg., 14,3/1000)",
-        "Reel 13/10 « Niveau 1/2 » gaming (1 partage, 45 % >3 s)"
-      ],
-      "flop": [
-        "Reel 10/10 « Courir le soir » (12,5 % >3 s)",
-        "Reel 17/10 « Météo du coureur » (13 % >3 s)"
-      ],
-      "reperage": "sauté (pas de Kapturz, vidIQ 2 crédits < 5)",
-      "file": "pleine : IG 4/sem et YT ≥4/sem jusqu'au 08/11",
-      "crees": 0,
-      "pinterest": "non connecté"
-    },
-    {
-      "date": "2026-10-19 (pilote 17 h 15)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 ; semaine du 12/10 : 2932 vues IG, 0 vue YT (aucun Short publié).",
-      "menu": "choix de Pierre : s03 → traceo-m1019-demain-pas-ici.mp4, YouTube 06/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
-      "crees": 2,
-      "stock_ig": [
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-20.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-20 (pilote 17 h 10)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (dernier relevé identique). YT : métriques vidéos Metricool toutes dépréciées, aucun Short encore publié (premier ce soir 18:00).",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Le diamant » → traceo-m1020-le-diamant.mp4, YouTube 08/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté ; v01 déjà programmé à 18:00 via Metricool)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-21.json (11 scripts)",
-      "outils": "caption.py et detect.py calibrés sur l'anglais : alerte ONE ASK et note VOICE non pertinentes en français"
-    },
-    {
-      "date": "2026-10-21 (pilote 17 h 13)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (ni v01 du 20/10). YT : aucun Short dans les stats (YTVP vide).",
-      "alerte": "Metricool : le Reel v03 du 21/10 10:00 est en ERROR « account limit reached ». Le quota d'octobre est en réalité dépassé : les publications d'octobre encore programmées (IG 23, 24, 27, 28, 30, 31/10 ; YT 21 au 31/10) vont échouer. Pierre prévenu par notification.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Même 6 km » → traceo-m1021-meme-6-km.mp4, YouTube 09/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-22.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-23 (pilote 17 h 12)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Aucune exécution le 22/10 (menu du 22/10 jamais fabriqué). Metricool : Reel v04 du 23/10 10:00 en ERROR « account limit reached » ; Short YouTube v03 du 22/10 18:00 en ERROR aussi.",
-      "menu": "aucun menu pour le 23/10 → rien fabriqué (section 4 bis, point 1) ; aucun choix de Pierre",
-      "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
-      "garder": "aucun",
-      "crees": 0,
-      "stock_ig": [
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-24.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-24 (pilote 17 h 11)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Reel v02 du 24/10 10:00 en ERROR (limite du compte). Les publications d'octobre encore programmées (IG 27, 28, 30, 31/10 ; YT 24 au 31/10) risquent le même sort.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Mode nuit, 21 h » → traceo-m1024-mode-nuit.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-25.json (11 scripts)",
-      "outils": "Chromium du cloud : /opt/pw-browsers/chromium-1243/chrome-linux64/chrome (le chemin chromium-1194 de PILOTE.md n'existe plus)"
-    },
-    {
-      "date": "2026-10-26 (pilote 17 h 16)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats (YTVP vide).",
-      "alerte": "Aucune exécution le 25/10 (menu du 25/10 jamais fabriqué, pas de menu pour le 26/10). Le Short v04 de ce soir 18:00 risque d'échouer (quota d'octobre dépassé).",
-      "menu": "aucun menu pour le 26/10 → rien fabriqué (section 4 bis, point 1) ; choix du 25/10 : aucun",
-      "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
-      "garder": "aucun",
-      "crees": 0,
-      "stock_ig": [
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "bilan_semaine_19_10": "0 nouveau Reel IG paru, 0 Short YT dans les stats ; 1 vidéo créée (m1024)",
-      "menu_demain": "studio/menus/2026-10-27.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-27 (pilote 17 h 27)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Short v04 du 26/10 18:00 en ERROR (limite du compte). Reel v06 et Short w04 programmés ce soir 18:00 risquent le même sort.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Demain, une autre rue » → traceo-m1027-une-autre-rue.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-28.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-28 (pilote 17 h 13)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Reel v05 du 28/10 10:00 et Reel v06 + Short w04 du 27/10 en ERROR (limite du compte). Short v06 ce soir 18:00 en attente, même risque.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Le vrai plus dur » → traceo-m1028-le-vrai-plus-dur.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-29.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-29 (pilote 17 h 20)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Reels v06 (27/10) et v05 (28/10), Shorts w04 (27/10) et v06 (28/10) en ERROR « account limit ». Short w07 ce soir 18:00 et Reels v09/v10 des 30-31/10 en attente, même risque.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « 40 minutes réglées » → traceo-m1029-40-minutes.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
-      "menu_demain": "studio/menus/2026-10-30.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-30 (pilote 17 h 24)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Reel v09 du 30/10 10:00 en ERROR « account limit ». Short v05 ce soir 18:00, Reel v10 et Short w08 du 31/10 en attente, même risque.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « 3 minutes de chauffe, 10 secondes de tracé » → traceo-m1030-chauffe-10s.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1030-chauffe-10s",
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
-      "menu_demain": "studio/menus/2026-10-31.json (11 scripts)"
-    },
-    {
-      "date": "2026-10-31 (pilote 17 h 11)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (légère hausse des vues cumulées, ex. 12/10 sans légende 237 vues). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Reel v10 du 31/10 10:00 et Short v05 du 30/10 18:00 en ERROR « account limit ». Short w08 ce soir 18:00 en attente, même risque.",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Je tape 2 km » → traceo-m1031-je-tape-2-km.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1031-je-tape-2-km",
-        "m1030-chauffe-10s",
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
-      "menu_demain": "studio/menus/2026-11-01.json (11 scripts)"
-    },
-    {
-      "date": "2026-11-01 (pilote 17 h 11)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques au 31/10). YT : aucun Short dans les stats.",
-      "alerte": "Metricool : Short w08 du 31/10 18:00 en ERROR « account limit ». Short de ce soir 01/11 18:00 en attente (1re publication de novembre).",
-      "menu": "pas de choix de Pierre → rang 1 s01 « 5 km ou 30 minutes » → traceo-m1101-5km-ou-30min.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1101-5km-ou-30min",
-        "m1031-je-tape-2-km",
-        "m1030-chauffe-10s",
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
-      "menu_demain": "studio/menus/2026-11-02.json (11 scripts)"
-    },
-    {
-      "date": "2026-11-02 (pilote 17 h 15)",
-      "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques au 01/11). YT : 2 Shorts publiés (01/11 v09, 02/11 w05), 0 vue relevée (YTEV02).",
-      "alerte": "Metricool : les Shorts du 01/11 et du 02/11 sont partis (PUBLISHED). Octobre : toutes les publications après le quota en ERROR « account limit ».",
-      "menu": "pas de choix de Pierre → rang 1 s01 « Ton tour du lundi » → traceo-m1102-tour-du-lundi.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
-      "garder": "aucun",
-      "crees": 1,
-      "stock_ig": [
-        "m1102-tour-du-lundi",
-        "m1101-5km-ou-30min",
-        "m1031-je-tape-2-km",
-        "m1030-chauffe-10s",
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
-      "bilan_semaine_26_10": "0 nouveau Reel IG paru ; 2 Shorts YT parus (01 et 02/11), 0 vue relevée ; 6 vidéos créées (m1027, m1028, m1029, m1030, m1031, m1101) + m1102 aujourd'hui",
-      "menu_demain": "studio/menus/2026-11-03.json (12 scripts)"
-    },
-    {
-      "date": "2026-11-07 (pilote 17 h 10)",
-      "mesure": "IG 28 j : 28 Reels, 2 nouveaux (w01 06/11 180 vues 20,4 % >3 s ; w03 07/11 152 vues 39 % >3 s). YT : 319 vues du 01 au 04/11, 1 abonné.",
-      "alerte": "Exécutions des 03, 05 et 06/11 non enregistrées dans le dépôt (menu du 05/11 récupéré depuis la page). Aucun menu pour le 07/11.",
-      "menu": "pas de menu du 07/11 → pas de vidéo du menu ; Instagram : Reel w03 déjà paru à 10:00 (Metricool) et connecteur vidIQ à reconnecter ; YouTube : w3-01 ce soir 18:00 (programmé le 19/10)",
-      "garder": "aucun (pas de choix)",
-      "crees": 0,
-      "stock_ig": [
-        "m1102-tour-du-lundi",
-        "m1101-5km-ou-30min",
-        "m1031-je-tape-2-km",
-        "m1030-chauffe-10s",
-        "m1029-40-minutes",
-        "m1028-le-vrai-plus-dur",
-        "m1027-une-autre-rue",
-        "m1024-mode-nuit",
-        "m1021-meme-6-km",
-        "m1020-le-diamant",
-        "m1019-demain-pas-ici",
-        "x01-meme-tour",
-        "w3-01-niveaux"
-      ],
-      "reperage": "Metricool : pas de concurrents ; vidIQ : connecteur à reconnecter",
-      "menu_demain": "studio/menus/2026-11-08.json (11 scripts)"
-    }
-  ],
-  "analyse": {
-    "date": "2026-11-07",
-    "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
-    "top": [
-      {
-        "reel": "12/10 12:31 sans légende",
-        "url": "https://www.instagram.com/reel/DeZARFoMaZf/",
-        "score": 14.3,
-        "vues": 237,
-        ">3s": 36.2
-      },
-      {
-        "reel": "09/10 19:25 sans légende",
-        "url": "https://www.instagram.com/reel/DeSQUocsxm9/",
-        "score": 10.9,
-        "vues": 152,
-        ">3s": 25.5
-      },
-      {
-        "reel": "13/10 « Niveau 1/2 » gaming",
-        "url": "https://www.instagram.com/reel/DecTUSKFbNa/",
-        "score": 4.0,
-        "vues": 312,
-        ">3s": 44.1
-      }
-    ],
-    "flop": [
-      {
-        "reel": "10/10 « Courir le soir »",
-        "score": 0,
-        ">3s": 12.5
-      },
-      {
-        "reel": "17/10 « Météo du coureur »",
-        "score": 0,
-        ">3s": 13.0
-      },
-      {
-        "reel": "11/10 « Départ : canapé »",
-        "score": 0,
-        ">3s": 15.8
-      }
-    ],
-    "note": "Relevé du 07/11 : 2 nouveaux Reels parus via Metricool (w01 « On doit parler » 06/11 : 180 vues, 0 partage, 20,4 % >3 s ; w03 « Tier list » 07/11 : 152 vues, 0 partage, 39 % >3 s), tous deux de moins de 48 h donc hors classement : top et flop inchangés. YouTube (YTEV02) : 4, 45, 121 et 149 vues les 01 à 04/11 (319 vues, données après le 04/11 pas encore remontées), 1 abonné.",
-    "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
-    "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
+ "maj": "2026-11-09",
+ "videos": [
+  {
+   "id": "v01-meme-endroit",
+   "fichier": "traceo-v01-meme-endroit.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v01-meme-endroit.mp4",
+   "angle": "Accroche question : « Marre de toujours courir au même endroit ? »",
+   "instagram": "2026-10-20T18:00",
+   "youtube": "2026-10-20T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "20/10 18:00 (Metricool) : absent des stats IG et de YouTube le 21/10, sans doute refusé pour la même limite de compte."
   },
-  "veille": {
-    "date": "2026-11-07",
-    "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
-    "vidiq": "sautée : connecteur vidIQ à reconnecter dans Claude"
+  {
+   "id": "v02-156",
+   "fichier": "traceo-v02-156.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v02-156.mp4",
+   "angle": "Chiffre choc : 156 fois le même tour par an",
+   "instagram": "2026-10-24T10:00",
+   "youtube": "2026-10-24T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 24/10 10:00 : statut ERROR (limite du compte Metricool). Pas paru."
   },
-  "metricool_quota": {
-    "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
-    "2026-11": "20/20 (plein : IG 10 non brouillon, YT 10), revérifié le 07/11 avec getScheduledPosts ; IG publiés 06 et 07/11, YT publiés du 01 au 06/11"
+  {
+   "id": "v03-yeux-fermes",
+   "fichier": "traceo-v03-yeux-fermes.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v03-yeux-fermes.mp4",
+   "angle": "Défi/question : dessiner son parcours les yeux fermés",
+   "instagram": "2026-10-21T10:00",
+   "youtube": "2026-10-22T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 21/10 10:00 : « You have reached your Metricool account limit » (post 399749355, statut ERROR). Pas paru.",
+   "youtube_note": "ÉCHEC Metricool 22/10 18:00 : « You have reached your Metricool account limit. »"
+  },
+  {
+   "id": "v04-trois-gestes",
+   "fichier": "traceo-v04-trois-gestes.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v04-trois-gestes.mp4",
+   "angle": "Tuto produit en 3 gestes (distance ou durée)",
+   "instagram": "2026-10-23T10:00",
+   "youtube": "2026-10-26T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 23/10 10:00 : « You have reached your Metricool account limit. »"
+  },
+  {
+   "id": "v05-le-choix",
+   "fichier": "traceo-v05-le-choix.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v05-le-choix.mp4",
+   "angle": "Comment Traceo choisit la boucle (comparaison d'itinéraires)",
+   "instagram": "2026-10-28T10:00",
+   "youtube": "2026-10-30T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "v06-mode-nuit",
+   "fichier": "traceo-v06-mode-nuit.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v06-mode-nuit.mp4",
+   "angle": "Cas d'usage : courir le soir, mode nuit",
+   "instagram": "2026-10-27T18:00",
+   "youtube": "2026-10-28T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "v07-marcheurs",
+   "fichier": "traceo-v07-marcheurs.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v07-marcheurs.mp4",
+   "angle": "Cible marcheurs (BROUILLON Instagram, attend la validation de Pierre)",
+   "instagram": "2026-11-03T18:00 (brouillon)",
+   "youtube": null,
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "v08-randonnee",
+   "fichier": "traceo-v08-randonnee.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v08-randonnee.mp4",
+   "angle": "Cible randonneurs (BROUILLON Instagram, attend la validation de Pierre)",
+   "instagram": "2026-11-04T10:00 (brouillon)",
+   "youtube": null,
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "v09-jamais-seul",
+   "fichier": "traceo-v09-jamais-seul.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v09-jamais-seul.mp4",
+   "angle": "Fonction sociale Premium « Je pars courir »",
+   "instagram": "2026-10-30T10:00",
+   "youtube": "2026-11-01T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "ÉCHEC Metricool 30/10 10:00 : « You have reached your Metricool account limit. » Pas paru.",
+   "youtube_statut": "publié le 2026-11-01 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
+  },
+  {
+   "id": "v10-manifeste",
+   "fichier": "traceo-v10-manifeste.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-v10-manifeste.mp4",
+   "angle": "Manifeste de marque",
+   "instagram": "2026-10-31T10:00",
+   "youtube": "2026-11-03T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-03 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/mZ-BXXtiU4w, vérifié le 07/11)"
+  },
+  {
+   "id": "w01-on-doit-parler",
+   "fichier": "traceo-w01-on-doit-parler.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w01-on-doit-parler.mp4",
+   "angle": "Humour : conversation SMS avec « ton tour habituel »",
+   "instagram": "2026-11-06T10:00",
+   "youtube": "2026-10-21T18:00",
+   "pinterest": null,
+   "resultats": {
+    "2026-11-07": {
+     "instagram": {
+      "url": "https://www.instagram.com/reel/DfZPRVYGRzP/",
+      "publie": "2026-11-06T10:02",
+      "vues": 180,
+      "couverture": 141,
+      "partages": 0,
+      "enregistrements": 0,
+      "commentaires": 0,
+      "jaime": 0,
+      "duree_moy_s": 3.204,
+      "vue_3s_pct": 20.4
+     }
+    },
+    "2026-11-09": {
+     "instagram": {
+      "url": "https://www.instagram.com/reel/DfZPRVYGRzP/",
+      "vues": 195,
+      "couverture": 151,
+      "partages": 0,
+      "enregistrements": 0,
+      "commentaires": 0,
+      "jaime": 0,
+      "duree_moy_s": 3.13,
+      "vue_3s_pct": 19.6,
+      "score": 0
+     }
+    }
+   },
+   "instagram_statut": "publié le 2026-11-06 10:00 (Metricool PUBLISHED)"
+  },
+  {
+   "id": "w02-debloque-ta-ville",
+   "fichier": "traceo-w02-debloque-ta-ville.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w02-debloque-ta-ville.mp4",
+   "angle": "Jeu vidéo pixel, ville à débloquer (gamification)",
+   "instagram": "2026-11-10T18:00",
+   "youtube": "2026-10-25T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w03-tier-list",
+   "fichier": "traceo-w03-tier-list.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w03-tier-list.mp4",
+   "angle": "Tier list des excuses (participation en commentaire)",
+   "instagram": "2026-11-07T10:00",
+   "youtube": "2026-10-23T18:00",
+   "pinterest": null,
+   "resultats": {
+    "2026-11-07": {
+     "instagram": {
+      "url": "https://www.instagram.com/reel/Dfb0CXcGUSs/",
+      "publie": "2026-11-07T10:02",
+      "vues": 152,
+      "couverture": 136,
+      "partages": 0,
+      "enregistrements": 0,
+      "commentaires": 0,
+      "jaime": 0,
+      "duree_moy_s": 4.767,
+      "vue_3s_pct": 39.0
+     }
+    },
+    "2026-11-09": {
+     "instagram": {
+      "url": "https://www.instagram.com/reel/Dfb0CXcGUSs/",
+      "vues": 215,
+      "couverture": 181,
+      "partages": 0,
+      "enregistrements": 0,
+      "commentaires": 0,
+      "jaime": 0,
+      "duree_moy_s": 4.6,
+      "vue_3s_pct": 35.6,
+      "score": 0
+     }
+    }
+   },
+   "instagram_statut": "publié le 2026-11-07 10:00 (Metricool PUBLISHED)"
+  },
+  {
+   "id": "w04-un-an",
+   "fichier": "traceo-w04-un-an.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w04-un-an.mp4",
+   "angle": "Écran partagé avant/après sur un an",
+   "instagram": "2026-11-13T10:00",
+   "youtube": "2026-10-27T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w05-le-chrono",
+   "fichier": "traceo-w05-le-chrono.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w05-le-chrono.mp4",
+   "angle": "Chrono : boucle tracée en ~10 s",
+   "instagram": "2026-11-18T10:00",
+   "youtube": "2026-11-02T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-02 18:00 (Metricool PUBLISHED, vérifié le 02/11)"
+  },
+  {
+   "id": "w06-defi-30-jours",
+   "fichier": "traceo-w06-defi-30-jours.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w06-defi-30-jours.mp4",
+   "angle": "Lancement du défi #UneRueParSortie",
+   "instagram": "2026-11-14T10:00",
+   "youtube": "2026-11-14T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w07-la-montre",
+   "fichier": "traceo-w07-la-montre.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w07-la-montre.mp4",
+   "angle": "POV montre GPS, export Strava/Garmin/GPX",
+   "instagram": "2026-11-17T18:00",
+   "youtube": "2026-10-29T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w08-ta-boucle-dit",
+   "fichier": "traceo-w08-ta-boucle-dit.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w08-ta-boucle-dit.mp4",
+   "angle": "Quiz : ce que ta boucle dit de toi",
+   "instagram": "2026-11-20T10:00",
+   "youtube": "2026-10-31T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "w09-commente-ta-ville",
+   "fichier": "traceo-w09-commente-ta-ville.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w09-commente-ta-ville.mp4",
+   "angle": "Carte de France : commente ta ville",
+   "instagram": "2026-11-11T10:00",
+   "youtube": "2026-11-04T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-04 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/_nQifx4F3go, vérifié le 07/11)"
+  },
+  {
+   "id": "w10-le-ticket",
+   "fichier": "traceo-w10-le-ticket.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w10-le-ticket.mp4",
+   "angle": "Ticket de caisse : combien coûte une boucle",
+   "instagram": "2026-11-21T10:00",
+   "youtube": "2026-11-05T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-05 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/xEq3oNxRRtA, vérifié le 07/11)"
+  },
+  {
+   "id": "x01-meme-tour",
+   "fichier": "traceo-x01-meme-tour.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-x01-meme-tour.mp4",
+   "angle": "Papier seul (moteur short-editing) : « Tu cours encore le même tour ? », 156 fois barré, boucle neuve, 10 s",
+   "format": "1080x1920, 15 s, moteur short-editing (formation Editing IA)",
+   "instagram": null,
+   "youtube": null,
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1019-demain-pas-ici",
+   "fichier": "traceo-m1019-demain-pas-ici.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1019-demain-pas-ici.mp4",
+   "angle": "Menu du 19/10, s03 choisi par Pierre : « Demain, tu ne courras pas ici. » (mémoire des rues déjà proposées)",
+   "menu": "2026-10-19/s03",
+   "format": "1080x1920, 14 s, moteur short-editing, Instrument Serif, papier bleu froid, lit « enquete »",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 19/10",
+   "youtube": "2026-11-06T18:00",
+   "pinterest": null,
+   "resultats": {},
+   "youtube_statut": "publié le 2026-11-06 18:00 (Metricool PUBLISHED, https://www.youtube.com/shorts/6-HWUaMAvDo, vérifié le 07/11)"
+  },
+  {
+   "id": "w3-01-niveaux",
+   "fichier": "traceo-w3-01-niveaux.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-w3-01-niveaux.mp4",
+   "angle": "Les niveaux du coureur (script s02 du menu du 19/10, non choisi) : même tour, autre sens, hasard, boucle neuve",
+   "menu": "2026-10-19/s02",
+   "format": "2160x3840, 16,4 s, méthode 1 (scenes_w3), FreeSans + Charter italique, sable et terracotta, UK garage",
+   "instagram": null,
+   "youtube": "2026-11-07T18:00",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1020-le-diamant",
+   "fichier": "traceo-m1020-le-diamant.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1020-le-diamant.mp4",
+   "angle": "Menu du 20/10, s01 (rang 1, aucun choix de Pierre) : « 100 sorties = 1 diamant Traceo. Voici ce qu'il te donne. » (31 jours de Premium)",
+   "menu": "2026-10-20/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Archivo Black + Archivo, papier lilas #ECE8F4, encre #1D1530, accent #16896A, lit « sonar »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ne pas oublier.\n\nAvec Traceo, chaque fois que tu atteins 100 sorties, tu gagnes un diamant : 31 jours de Premium. Ton parcours de course à pied change à chaque footing, et tes sorties comptent.\n\nTrace ta boucle depuis chez toi, de 2 à 42 km, par des rues que tu n'as jamais courues.\n\n#running #courseapied #footing #motivationrunning",
+   "instagram": null,
+   "youtube": "2026-11-08T18:00",
+   "youtube_metricool_id": 401217449,
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1021-meme-6-km",
+   "fichier": "traceo-m1021-meme-6-km.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1021-meme-6-km.mp4",
+   "angle": "Menu du 21/10, s01 (rang 1, aucun choix de Pierre) : « Même 6 km. Ton tour habituel ou 6 km de rues neuves ? » (face-à-face gauche/droite)",
+   "menu": "2026-10-21/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Bowlby One SC + DM Sans, papier crème #F2EEE4, encre #13202A, accent #1F7FB5, lit « neon »",
+   "accroche_note": 49.3,
+   "legende_instagram": "Commente GAUCHE ou DROITE.\n\nMême distance, même effort, mais pas le même footing. Traceo trace ton parcours de course à pied depuis chez toi, par des rues nouvelles, et te ramène au départ.\n\n#running #courseapied #footing #parcoursrunning",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 21/10",
+   "youtube": "2026-11-09T18:00",
+   "youtube_metricool_id": 402251768,
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1024-mode-nuit",
+   "fichier": "traceo-m1024-mode-nuit.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1024-mode-nuit.mp4",
+   "angle": "Menu du 24/10, s01 (rang 1, aucun choix de Pierre) : « 21 h, mode nuit activé. Regarde la boucle qui sort. » (démo carte nuit, boucle, guidage vocal)",
+   "menu": "2026-10-24/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Inter 800 + JetBrains Mono, papier nuit #0E151F, encre #E8EEF3, accent #3CC79A, composant HTML carte-nuit, lit « code-noir »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ta prochaine sortie du soir.\n\nCourir le soir sans chercher son parcours : Traceo trace une boucle de running depuis chez toi, avec une carte contrastée en mode nuit et un guidage vocal. Tu reviens à ton point de départ.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "21 h, mode nuit : ta boucle de course du soir en 10 secondes #running",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 24/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1027-une-autre-rue",
+   "fichier": "traceo-m1027-une-autre-rue.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1027-une-autre-rue.mp4",
+   "angle": "Menu du 27/10, s01 (rang 1, aucun choix de Pierre) : « 1 rue courue ce soir. Demain, Traceo t'en propose 1 autre. » (mémoire des rues déjà proposées)",
+   "menu": "2026-10-27/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Poppins SemiBold, papier sauge #EDF2E8, encre #18241C, accent #1B8F86, lit « filature »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ta prochaine sortie.\n\nTon prochain parcours de course à pied, de 5 ou 10 km, passe ailleurs : Traceo se souvient des rues qu'il t'a déjà proposées. Ton footing ne tourne plus en rond.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Traceo se souvient de tes rues : un parcours de course différent demain #running",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 27/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1028-le-vrai-plus-dur",
+   "fichier": "traceo-m1028-le-vrai-plus-dur.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1028-le-vrai-plus-dur.mp4",
+   "angle": "Menu du 28/10, s01 (rang 1, aucun choix de Pierre) : « Le plus dur de tes 5 km ? Ce n'est pas courir. C'est choisir où. » (Traceo trace ta boucle en 10 s)",
+   "menu": "2026-10-28/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, Lora Bold + Archivo, papier abricot #F5ECDF, encre aubergine #2B1B33, accent #2A7FB8, chrono 00:10, lit « thriller »",
+   "accroche_note": 42.2,
+   "accroche_retenue": "Tes 5 km meurent avant le départ : le plus dur, c'est choisir où courir. (écrans du menu conservés)",
+   "legende_instagram": "Envoie-le à 1 ami qui hésite toujours avant ses 5 km.\n\nTon parcours de course à pied part de chez toi et y revient, par des rues que tu n'as jamais courues. Tu choisis la distance, Traceo choisit les rues de ton footing.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Le plus dur du footing, c'est de choisir où courir #running",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 28/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1029-40-minutes",
+   "fichier": "traceo-m1029-40-minutes.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1029-40-minutes.mp4",
+   "angle": "Menu du 29/10, s01 (rang 1, aucun choix de Pierre) : « Je règle 40 minutes. Regarde la boucle qui sort. » (durée 10 min à 4 h, comparaison d'itinéraires, retour au départ)",
+   "menu": "2026-10-29/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, TeX Gyre Adventor, papier pierre #EEEFEA, encre #17202B, accent #1E8F6E, composant HTML carte-40 (3 itinéraires comparés, 1 gardé), lit « arpege »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Enregistre-le pour ta prochaine sortie de 40 minutes.\n\nPas envie de compter les km ? Choisis une durée, de 10 min à 4 h : Traceo trace ton parcours de course à pied depuis chez toi et te ramène au départ. Ton footing tient dans ton créneau. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Je règle 40 minutes : ma boucle de course sort en 10 secondes #running",
+   "controles": "caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6 (voix calibrée sur l'anglais)",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ sans compte Instagram connecté le 29/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1030-chauffe-10s",
+   "fichier": "traceo-m1030-chauffe-10s.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1030-chauffe-10s.mp4",
+   "angle": "Menu du 30/10, s01 (rang 1, aucun choix de Pierre) : « Ta chauffe dure 3 minutes. Ta boucle de 5 km, 10 secondes. » (chronos 03:00 puis 00:10, depuis ta porte, rues nouvelles)",
+   "menu": "2026-10-30/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, Bricolage Grotesque 800, papier gris perle #E9EDF2, encre marine #10233A, accent #2F86C2, lit « compte-a-rebours »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Trace ta boucle gratuite : lien en bio.\n\nPendant que tu t'échauffes, Traceo trace ton parcours de course à pied de 5 km depuis chez toi, en 10 secondes environ, sans appli à télécharger.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Ta chauffe dure plus longtemps que le tracé de ta boucle #running",
+   "controles": "caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 57,6 (voix calibrée sur l'anglais)",
+   "instagram": null,
+   "instagram_note": "en tête du stock : vidIQ indisponible dans la session du 30/10 (et traceo.io non connecté jusqu'ici)",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1031-je-tape-2-km",
+   "fichier": "traceo-m1031-je-tape-2-km.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1031-je-tape-2-km.mp4",
+   "angle": "Menu du 31/10, s01 (rang 1, aucun choix de Pierre) : « Je tape 2 km. Regarde la plus petite boucle sortir. » (démo carte, boucle depuis la porte, retour au départ)",
+   "menu": "2026-10-31/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, TeX Gyre Heros Cn, papier rosé #F3E6E1, encre brun #2B1D1A, accent #1C7DB0, composant HTML carte-2km, lit « labo »",
+   "accroche_note": 50.6,
+   "legende_instagram": "Trace ta boucle gratuite : lien en bio.\n\nUn petit footing de reprise ? Règle 2 km : Traceo trace ton parcours de course à pied depuis chez toi, par des rues que tu n'as jamais courues, et te ramène au départ. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Je tape 2 km : ma plus petite boucle de course sort en 10 secondes #running",
+   "controles": "contrôle visuel contact.jpg + carte-2km-sheet OK ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
+   "instagram": null,
+   "instagram_note": "en tête du stock : outils vidIQ absents de la session du 31/10",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1101-5km-ou-30min",
+   "fichier": "traceo-m1101-5km-ou-30min.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1101-5km-ou-30min.mp4",
+   "angle": "Menu du 01/11, s01 (rang 1, aucun choix de Pierre) : « 5 km ou 30 minutes » (face-à-face : deux boucles, distance et durée, depuis la même porte)",
+   "menu": "2026-11-01/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, TeX Gyre Schola, papier bleu glacier #E4ECEF, encre #14232B, accent terracotta #B5502A, composant HTML carte-duo (2 cartes côte à côte), lit « enquete »",
+   "accroche_note": 50.6,
+   "accroche_retenue": "Tu cours 5 km ou 30 minutes ? Regarde les 2 boucles sortir. (menu : 49,3)",
+   "legende_instagram": "Dis en commentaire : tu cours à la distance ou à la durée ?\n\nTon parcours de course à pied, réglé en kilomètres (2 à 42 km) ou en minutes (10 min à 4 h) : Traceo trace ta boucle de running depuis chez toi et te ramène au départ. Pour un footing de 5 km comme de 30 minutes. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Courir 5 km ou 30 minutes : deux boucles, même départ #running",
+   "controles": "contrôle visuel contact.jpg + carte-duo-sheet OK (texte recentré x 470 dans la zone sûre) ; QC h264 1080x1920, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 63,6",
+   "instagram": null,
+   "instagram_note": "en tête du stock : outils vidIQ absents de la session du 01/11",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1102-tour-du-lundi",
+   "fichier": "traceo-m1102-tour-du-lundi.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1102-tour-du-lundi.mp4",
+   "angle": "Menu du 02/11, s01 (rang 1, aucun choix de Pierre) : « Stop au tour du lundi : ta boucle de 7 km sort en 10 secondes. » (carte : le coureur tourne autour du même parc, puis la boucle de 7 km sort)",
+   "menu": "2026-11-02/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, DM Sans 800, papier lilas #ECE8F3, encre #1E1A2E, accent violet #6A4FC2, composant HTML carte-lundi (ancien tour puis boucle 7 km), lit « sonar »",
+   "accroche_note": 77.5,
+   "legende_instagram": "Envoie-le à celui qui court le même tour chaque lundi.\n\nToujours le même parc ? Pour ta reprise de la semaine, Traceo trace un parcours de course à pied par des rues que tu n'as jamais courues. Et il te ramène chez toi. Ton footing du lundi change enfin de décor. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Arrête de courir ton tour du lundi : trace une boucle neuve #running",
+   "controles": "contrôle visuel carte-lundi-sheet + contact.jpg OK (texte dans la zone sûre, aucun chevauchement) ; QC h264 1080x1920, 13 s, -14,0 LUFS ; caption.py : REVIEW (seule alerte : appel à l'action non reconnu en français) ; detect.py 57,1",
+   "instagram": null,
+   "instagram_note": "en tête du stock : outils vidIQ absents de la session du 02/11",
+   "youtube": null,
+   "youtube_note": "YouTube en attente : quota Metricool de novembre plein (20/20)",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1109-excuses-lundi",
+   "fichier": "traceo-m1109-excuses-lundi.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1109-excuses-lundi.mp4",
+   "angle": "Menu du 09/11, s01 (rang 1, aucun choix de Pierre) : « Tes 4 excuses du lundi soir, classées. La n°1 se règle en 10 secondes. » (classement, n°1 barrée, boucle neuve depuis chez toi)",
+   "menu": "2026-11-09/s01",
+   "format": "1080x1920, 15 s, moteur short-editing, Caladea Bold, papier paille #F3ECCB, encre #1D241F, accent #178A68, lit « compte-a-rebours »",
+   "accroche_note": 43.9,
+   "accroche_retenue": "Tes 4 excuses du lundi soir, classées. La n°1 se règle en 10 secondes. (deux réécritures, meilleure 46,5 jugée moins claire)",
+   "legende_instagram": "Dis en commentaire laquelle est la tienne.\n\nLa pluie, la nuit, la flemme... et « je connais déjà le parcours ». Celle-là, Traceo la règle : un parcours de course à pied par des rues nouvelles, depuis chez toi, en 10 secondes environ.\n\nTon footing du lundi soir n'a plus besoin d'excuse. Le running reprend là où tu n'es jamais passé.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "4 excuses pour ne pas courir le lundi, classées #running",
+   "instagram": null,
+   "instagram_note": "en tête du stock : connecteur vidIQ à reconnecter (09/11)",
+   "youtube": "2026-11-10T18:00",
+   "youtube_statut": "programmé Metricool post 422066197 (non brouillon), créé le 09/11",
+   "pinterest": null,
+   "resultats": {}
   }
+ ],
+ "journal": [
+  {
+   "date": "2026-10-19",
+   "mesure": "IG 28 j : 26 Reels hors registre, 6421 vues ; YT : 0 Short publié. Aucune vidéo du registre encore en ligne.",
+   "top": [
+    "Reel 12/10 sans légende (2 partages, 1 enreg., 14,3/1000)",
+    "Reel 13/10 « Niveau 1/2 » gaming (1 partage, 45 % >3 s)"
+   ],
+   "flop": [
+    "Reel 10/10 « Courir le soir » (12,5 % >3 s)",
+    "Reel 17/10 « Météo du coureur » (13 % >3 s)"
+   ],
+   "reperage": "sauté (pas de Kapturz, vidIQ 2 crédits < 5)",
+   "file": "pleine : IG 4/sem et YT ≥4/sem jusqu'au 08/11",
+   "crees": 0,
+   "pinterest": "non connecté"
+  },
+  {
+   "date": "2026-10-19 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 ; semaine du 12/10 : 2932 vues IG, 0 vue YT (aucun Short publié).",
+   "menu": "choix de Pierre : s03 → traceo-m1019-demain-pas-ici.mp4, YouTube 06/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
+   "crees": 2,
+   "stock_ig": [
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-20.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-20 (pilote 17 h 10)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (dernier relevé identique). YT : métriques vidéos Metricool toutes dépréciées, aucun Short encore publié (premier ce soir 18:00).",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Le diamant » → traceo-m1020-le-diamant.mp4, YouTube 08/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté ; v01 déjà programmé à 18:00 via Metricool)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-21.json (11 scripts)",
+   "outils": "caption.py et detect.py calibrés sur l'anglais : alerte ONE ASK et note VOICE non pertinentes en français"
+  },
+  {
+   "date": "2026-10-21 (pilote 17 h 13)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (ni v01 du 20/10). YT : aucun Short dans les stats (YTVP vide).",
+   "alerte": "Metricool : le Reel v03 du 21/10 10:00 est en ERROR « account limit reached ». Le quota d'octobre est en réalité dépassé : les publications d'octobre encore programmées (IG 23, 24, 27, 28, 30, 31/10 ; YT 21 au 31/10) vont échouer. Pierre prévenu par notification.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Même 6 km » → traceo-m1021-meme-6-km.mp4, YouTube 09/11 18:00 ; Instagram non publié (vidIQ : aucun compte Instagram connecté)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-22.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-23 (pilote 17 h 12)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Aucune exécution le 22/10 (menu du 22/10 jamais fabriqué). Metricool : Reel v04 du 23/10 10:00 en ERROR « account limit reached » ; Short YouTube v03 du 22/10 18:00 en ERROR aussi.",
+   "menu": "aucun menu pour le 23/10 → rien fabriqué (section 4 bis, point 1) ; aucun choix de Pierre",
+   "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
+   "garder": "aucun",
+   "crees": 0,
+   "stock_ig": [
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-24.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-24 (pilote 17 h 11)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reel v02 du 24/10 10:00 en ERROR (limite du compte). Les publications d'octobre encore programmées (IG 27, 28, 30, 31/10 ; YT 24 au 31/10) risquent le même sort.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Mode nuit, 21 h » → traceo-m1024-mode-nuit.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-25.json (11 scripts)",
+   "outils": "Chromium du cloud : /opt/pw-browsers/chromium-1243/chrome-linux64/chrome (le chemin chromium-1194 de PILOTE.md n'existe plus)"
+  },
+  {
+   "date": "2026-10-26 (pilote 17 h 16)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats (YTVP vide).",
+   "alerte": "Aucune exécution le 25/10 (menu du 25/10 jamais fabriqué, pas de menu pour le 26/10). Le Short v04 de ce soir 18:00 risque d'échouer (quota d'octobre dépassé).",
+   "menu": "aucun menu pour le 26/10 → rien fabriqué (section 4 bis, point 1) ; choix du 25/10 : aucun",
+   "publication": "rien : vidIQ sans compte Instagram connecté, Metricool plein (octobre dépassé, novembre 20/20)",
+   "garder": "aucun",
+   "crees": 0,
+   "stock_ig": [
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "bilan_semaine_19_10": "0 nouveau Reel IG paru, 0 Short YT dans les stats ; 1 vidéo créée (m1024)",
+   "menu_demain": "studio/menus/2026-10-27.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-27 (pilote 17 h 27)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Short v04 du 26/10 18:00 en ERROR (limite du compte). Reel v06 et Short w04 programmés ce soir 18:00 risquent le même sort.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Demain, une autre rue » → traceo-m1027-une-autre-rue.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-28.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-28 (pilote 17 h 13)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reel v05 du 28/10 10:00 et Reel v06 + Short w04 du 27/10 en ERROR (limite du compte). Short v06 ce soir 18:00 en attente, même risque.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Le vrai plus dur » → traceo-m1028-le-vrai-plus-dur.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-29.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-29 (pilote 17 h 20)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reels v06 (27/10) et v05 (28/10), Shorts w04 (27/10) et v06 (28/10) en ERROR « account limit ». Short w07 ce soir 18:00 et Reels v09/v10 des 30-31/10 en attente, même risque.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « 40 minutes réglées » → traceo-m1029-40-minutes.mp4 ; Instagram non publié (vidIQ : aucun compte Instagram connecté) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : 2 crédits",
+   "menu_demain": "studio/menus/2026-10-30.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-30 (pilote 17 h 24)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reel v09 du 30/10 10:00 en ERROR « account limit ». Short v05 ce soir 18:00, Reel v10 et Short w08 du 31/10 en attente, même risque.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « 3 minutes de chauffe, 10 secondes de tracé » → traceo-m1030-chauffe-10s.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "menu_demain": "studio/menus/2026-10-31.json (11 scripts)"
+  },
+  {
+   "date": "2026-10-31 (pilote 17 h 11)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (légère hausse des vues cumulées, ex. 12/10 sans légende 237 vues). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Reel v10 du 31/10 10:00 et Short v05 du 30/10 18:00 en ERROR « account limit ». Short w08 ce soir 18:00 en attente, même risque.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Je tape 2 km » → traceo-m1031-je-tape-2-km.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "menu_demain": "studio/menus/2026-11-01.json (11 scripts)"
+  },
+  {
+   "date": "2026-11-01 (pilote 17 h 11)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques au 31/10). YT : aucun Short dans les stats.",
+   "alerte": "Metricool : Short w08 du 31/10 18:00 en ERROR « account limit ». Short de ce soir 01/11 18:00 en attente (1re publication de novembre).",
+   "menu": "pas de choix de Pierre → rang 1 s01 « 5 km ou 30 minutes » → traceo-m1101-5km-ou-30min.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "menu_demain": "studio/menus/2026-11-02.json (11 scripts)"
+  },
+  {
+   "date": "2026-11-02 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 26 Reels, aucun nouveau depuis le 17/10 (chiffres identiques au 01/11). YT : 2 Shorts publiés (01/11 v09, 02/11 w05), 0 vue relevée (YTEV02).",
+   "alerte": "Metricool : les Shorts du 01/11 et du 02/11 sont partis (PUBLISHED). Octobre : toutes les publications après le quota en ERROR « account limit ».",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Ton tour du lundi » → traceo-m1102-tour-du-lundi.mp4 ; Instagram non publié (outils vidIQ absents de la session) ; YouTube en attente (novembre 20/20)",
+   "garder": "aucun",
+   "crees": 1,
+   "stock_ig": [
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : indisponible dans la session",
+   "bilan_semaine_26_10": "0 nouveau Reel IG paru ; 2 Shorts YT parus (01 et 02/11), 0 vue relevée ; 6 vidéos créées (m1027, m1028, m1029, m1030, m1031, m1101) + m1102 aujourd'hui",
+   "menu_demain": "studio/menus/2026-11-03.json (12 scripts)"
+  },
+  {
+   "date": "2026-11-07 (pilote 17 h 10)",
+   "mesure": "IG 28 j : 28 Reels, 2 nouveaux (w01 06/11 180 vues 20,4 % >3 s ; w03 07/11 152 vues 39 % >3 s). YT : 319 vues du 01 au 04/11, 1 abonné.",
+   "alerte": "Exécutions des 03, 05 et 06/11 non enregistrées dans le dépôt (menu du 05/11 récupéré depuis la page). Aucun menu pour le 07/11.",
+   "menu": "pas de menu du 07/11 → pas de vidéo du menu ; Instagram : Reel w03 déjà paru à 10:00 (Metricool) et connecteur vidIQ à reconnecter ; YouTube : w3-01 ce soir 18:00 (programmé le 19/10)",
+   "garder": "aucun (pas de choix)",
+   "crees": 0,
+   "stock_ig": [
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : pas de concurrents ; vidIQ : connecteur à reconnecter",
+   "menu_demain": "studio/menus/2026-11-08.json (11 scripts)"
+  },
+  {
+   "date": "2026-11-09 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 14 Reels dans la fenêtre (médiane 240 vues) ; w01 195 vues 19,6 % >3 s, w03 215 vues 35,6 % >3 s, 0 partage. YT : 441 vues du 02 au 06/11 (YTEV02), 1 abonné ; vidéos par vidéo indisponibles (YTVP vide).",
+   "alerte": "Exécution du 08/11 non poussée : traceo-m1108-stade-contre-boucle.mp4 absent du dépôt (perdu). Metricool : les publications futures de novembre ont été recréées en BROUILLON le 09/11 à 13:41 (hors pilote) ; le Short m1021 de ce soir 18:00 est donc en brouillon et ne partira pas.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Les excuses du lundi » → traceo-m1109-excuses-lundi.mp4 ; Instagram non publié (vidIQ à reconnecter) ; YouTube programmé 10/11 18:00",
+   "garder": "aucun (pas de choix)",
+   "crees": 1,
+   "stock_ig": [
+    "m1109-excuses-lundi",
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
+   "menu_demain": "studio/menus/2026-11-10.json (11 scripts)",
+   "audit_lundi": "ig-audit 09/11 : 14 Reels, médiane 240 vues. Outliers : « Montre » 12/10 (1,7x, 35,4 % >3 s), « Lettre » 14/10 (1,4x mais 22,6 % >3 s), « Niveau 1/2 » (1,3x, 44,1 %). Bas : « Bons baisers » (0,4x), « Définition » (0,7x), « On doit parler » (0,8x, 19,6 %). Le taux >3 s reste le séparateur ; partages quasi nuls partout (3 en 28 j). Refaire : démo de fonction et humour complice en liste ; arrêter : ambiance/voyage. n=14, signaux faibles."
+  }
+ ],
+ "analyse": {
+  "date": "2026-11-09",
+  "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
+  "top": [
+   {
+    "reel": "12/10 12:31 sans légende",
+    "url": "https://www.instagram.com/reel/DeZARFoMaZf/",
+    "score": 14.3,
+    "vues": 237,
+    ">3s": 36.2
+   },
+   {
+    "reel": "09/10 19:25 sans légende",
+    "url": "https://www.instagram.com/reel/DeSQUocsxm9/",
+    "score": 10.9,
+    "vues": 152,
+    ">3s": 25.5
+   },
+   {
+    "reel": "13/10 « Niveau 1/2 » gaming",
+    "url": "https://www.instagram.com/reel/DecTUSKFbNa/",
+    "score": 4.0,
+    "vues": 312,
+    ">3s": 44.1
+   }
+  ],
+  "flop": [
+   {
+    "reel": "10/10 « Courir le soir »",
+    "score": 0,
+    ">3s": 12.5
+   },
+   {
+    "reel": "17/10 « Météo du coureur »",
+    "score": 0,
+    ">3s": 13.0
+   },
+   {
+    "reel": "11/10 « Départ : canapé »",
+    "score": 0,
+    ">3s": 15.8
+   }
+  ],
+  "note": "Relevé du 09/11 : w01 (06/11) et w03 (07/11) passent les 48 h, score 0 tous deux (0 partage, 0 enregistrement, 0 commentaire) ; w03 tient 35,6 % >3 s contre 19,6 % pour w01. Top et flop inchangés. YouTube : 441 vues du 02 au 06/11, 1 abonné.",
+  "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
+  "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
+ },
+ "veille": {
+  "date": "2026-11-09",
+  "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
+  "vidiq": "sautée : connecteur vidIQ à reconnecter dans Claude"
+ },
+ "metricool_quota": {
+  "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
+  "2026-11": "11/20 au 09/11 : non brouillon = IG 06 et 07/11 (publiés), YT 01 à 08/11 (publiés), + YT m1109 10/11 18:00 (pilote). Les autres publications futures de novembre sont en brouillon depuis le 09/11 13:41 (ne comptent pas)."
+ }
 }

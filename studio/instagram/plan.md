@@ -26,3 +26,9 @@ Semaine du 19/10 : aucun Reel paru (Metricool refuse les publications d'octobre,
 Semaine du 26/10 : Reels Metricool encore programmés mar 27 (18h, v06), mer 28 (10h, v05), ven 30 (10h, v09), sam 31 (10h, v10), probablement refusés eux aussi (octobre dépassé). Shorts YouTube programmés chaque jour à 18:00, même risque jusqu'au 31/10.
 Stock Instagram ni paru ni programmé : m1024-mode-nuit (en tête), m1021-meme-6-km, m1020-le-diamant, m1019-demain-pas-ici, x01-meme-tour, w3-01-niveaux.
 Bloquant : connecter traceo.io à vidIQ pour publier gratuitement chaque jour.
+
+## Vérification du pilote (lun. 09/11, ig-plan)
+Semaine du 02/11 : 2 Reels parus (w01 06/11, w03 07/11, Metricool), rythme de 4 non tenu. YouTube : un Short par jour du 01 au 08/11.
+Semaine du 09/11 : toutes les publications Instagram futures de novembre sont en brouillon dans Metricool (recréées le 09/11 13:41) : aucun Reel ne partira tant que Pierre ne les repasse pas en programmé ou que vidIQ n'est pas reconnecté. YouTube : m1109 programmé mar 10/11 18:00.
+Stock Instagram ni paru ni programmé : m1109-excuses-lundi (en tête), m1102, m1101, m1031, m1030, m1029, m1028, m1027, m1024, m1021, m1020, m1019, x01, w3-01.
+Bloquant : reconnecter vidIQ dans Claude pour la publication Instagram gratuite.
