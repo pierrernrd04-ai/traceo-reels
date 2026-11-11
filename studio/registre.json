@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10",
+ "maj": "2026-11-11",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -158,6 +158,15 @@
       "duree_moy_s": 3.097,
       "vue_3s_pct": 19.2
      }
+    },
+    "2026-11-11": {
+     "vues": 201,
+     "couverture": 157,
+     "partages": 0,
+     "enreg": 0,
+     "comm": 0,
+     "jaime": 0,
+     ">3s": 18.9
     }
    },
    "instagram_statut": "publié le 2026-11-06 10:00 (Metricool PUBLISHED)"
@@ -221,6 +230,15 @@
       "duree_moy_s": 4.578,
       "vue_3s_pct": 35.2
      }
+    },
+    "2026-11-11": {
+     "vues": 220,
+     "couverture": 185,
+     "partages": 0,
+     "enreg": 0,
+     "comm": 0,
+     "jaime": 0,
+     ">3s": 34.8
     }
    },
    "instagram_statut": "publié le 2026-11-07 10:00 (Metricool PUBLISHED)"
@@ -543,6 +561,25 @@
    "instagram_note": "connecteur vidIQ à reconnecter (10/11) ; sujet daté du 11/11, à ne plus publier après",
    "youtube": "2026-11-11T18:00",
    "youtube_statut": "programmé Metricool post 423361346 (non brouillon), créé le 10/11",
+   "pinterest": null,
+   "resultats": {}
+  },
+  {
+   "id": "m1111-3-niveaux-jeudi",
+   "fichier": "traceo-m1111-3-niveaux-jeudi.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1111-3-niveaux-jeudi.mp4",
+   "angle": "Menu du 11/11, s01 (rang 1, aucun choix de Pierre) : 3 niveaux du footing du jeudi soir (même parc / même parc à l'envers / 6 km de rues neuves en 10 s)",
+   "menu": "2026-11-11/s01",
+   "format": "1080x1920, 14 s, moteur short-editing, TeX Gyre Bonum Bold, papier vert d'eau #E3EEEA, encre vert nuit #102A2A, accent orange #D9772B, lit « filature »",
+   "accroche_note": 47.6,
+   "accroche_retenue": "3 niveaux de footing le jeudi soir. Tu es à lequel ? (5 variantes testées ; celle du menu notait 43,9)",
+   "controles": "contrôle visuel contact.jpg (texte du niveau 3 réduit puis revu) ; QC h264 1080x1920, 14,0 s, -14,0 LUFS ; caption.py : REVIEW (appel à l'action français non reconnu) ; detect.py 53,0",
+   "legende_instagram": "Dis en commentaire à quel niveau tu cours.\n\nLe même parc, le même parc à l'envers... ou une boucle de 6 km par des rues que tu n'as jamais courues. Traceo trace ton parcours de course à pied depuis chez toi en 10 secondes environ.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Les 3 niveaux du footing du jeudi soir : t'es à lequel ? #running",
+   "instagram": null,
+   "instagram_note": "connecteur vidIQ à reconnecter (11/11) ; sujet « jeudi soir », à publier de préférence un jeudi",
+   "youtube": "2026-11-12T18:00",
+   "youtube_statut": "programmé Metricool post 424634107 (non brouillon), créé le 11/11",
    "pinterest": null,
    "resultats": {}
   }
@@ -900,10 +937,38 @@
    ],
    "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
    "menu_demain": "studio/menus/2026-11-11.json (12 scripts)"
+  },
+  {
+   "date": "2026-11-11 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 9 Reels dans la fenêtre, aucun nouveau depuis le 07/11 ; w01 201 vues 18,9 % >3 s, w03 220 vues 34,8 % >3 s, 0 partage. YT : 1 014 vues du 01 au 08/11, 1 abonné.",
+   "alerte": "vidIQ toujours à reconnecter : aucune publication Instagram possible (5e jour).",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Les 3 niveaux du jeudi » → traceo-m1111-3-niveaux-jeudi.mp4 ; Instagram non publié (vidIQ) ; YouTube programmé 12/11 18:00",
+   "garder": "aucun (pas de choix)",
+   "crees": 1,
+   "stock_ig": [
+    "m1111-3-niveaux-jeudi",
+    "m1110-11-novembre",
+    "m1109-excuses-lundi",
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
+   "menu_demain": "studio/menus/2026-11-12.json (11 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -945,17 +1010,17 @@
     ">3s": 15.8
    }
   ],
-  "note": "Relevé du 10/11 : aucun nouveau Reel IG depuis le 07/11. w01 198 vues 19,2 % >3 s, w03 218 vues 35,2 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 865 vues du 01 au 07/11 dont 420 le 07/11 (jour des « 4 niveaux », w3-01), 1 abonné ; jours suivants pas encore remontés.",
+  "note": "Relevé du 11/11 : aucun nouveau Reel IG depuis le 07/11. w01 201 vues 18,9 % >3 s, w03 220 vues 34,8 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 1 014 vues du 01 au 08/11 (420 le 07/11, 149 le 08/11), 1 abonné ; 09-11/11 pas encore remontés.",
   "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
   "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
  },
  "veille": {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : connecteur vidIQ à reconnecter dans Claude"
  },
  "metricool_quota": {
   "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
-  "2026-11": "12/20 au 10/11 : non brouillon = IG 06 et 07/11 (publiés), YT 01 à 08/11 (publiés), YT m1109 10/11 18:00 et YT m1110 11/11 18:00 (pilote). Le reste de novembre est en brouillon (ne compte pas)."
+  "2026-11": "13/20 au 11/11 : non brouillon = IG 06 et 07/11 (publiés), YT 01 à 08/11 (publiés), YT m1109 10/11 (publié), YT m1110 11/11 18:00 et YT m1111 12/11 18:00 (pilote). Le reste de novembre est en brouillon (ne compte pas)."
  }
 }
