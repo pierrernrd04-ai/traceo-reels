@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12",
+ "maj": "2026-11-15",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -167,6 +167,16 @@
      "comm": 0,
      "jaime": 0,
      ">3s": 18.9
+    },
+    "2026-11-15": {
+     "vues": 215,
+     "couverture": 167,
+     "partages": 0,
+     "enregistrements": 0,
+     "commentaires": 0,
+     "jaime": 0,
+     "duree_moy_s": 3.089,
+     ">3s": 19.4
     }
    },
    "instagram_statut": "publié le 2026-11-06 10:00 (Metricool PUBLISHED)"
@@ -239,6 +249,16 @@
      "comm": 0,
      "jaime": 0,
      ">3s": 34.8
+    },
+    "2026-11-15": {
+     "vues": 231,
+     "couverture": 193,
+     "partages": 0,
+     "enregistrements": 0,
+     "commentaires": 0,
+     "jaime": 0,
+     "duree_moy_s": 4.439,
+     ">3s": 34.2
     }
    },
    "instagram_statut": "publié le 2026-11-07 10:00 (Metricool PUBLISHED)"
@@ -1015,10 +1035,20 @@
    ],
    "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
    "menu_demain": "studio/menus/2026-11-13.json (12 scripts)"
+  },
+  {
+   "date": "2026-11-15 (pilote)",
+   "mesure": "IG 28 j : 2 Reels dans la fenêtre (06 et 07/11), aucun nouveau ; w03 231 vues 34,2 % >3 s, w01 215 vues 19,4 % >3 s, 0 partage. YT (YTEV02) : 1 708 vues du 01 au 12/11.",
+   "alerte": "Pas d'exécution les 13 et 14/11 : aucun menu pour le 14 ni le 15/11. vidIQ toujours à reconnecter (needs_reconnect) : aucune publication Instagram possible.",
+   "menu": "aucun menu pour le 15/11 → rien fabriqué ni publié (stock de 17 vidéos prêtes ≥ 3, pas de création D ; YouTube réservé aux nouvelles vidéos du menu, quota 14/20)",
+   "garder": "aucun (pas de choix)",
+   "crees": 0,
+   "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
+   "menu_demain": "studio/menus/2026-11-16.json (12 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-11-12",
+  "date": "2026-11-15",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -1060,17 +1090,17 @@
     ">3s": 15.8
    }
   ],
-  "note": "Relevé du 12/11 : aucun nouveau Reel IG depuis le 07/11. w01 208 vues 18,9 % >3 s, w03 225 vues 34,6 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 1 028 vues du 01 au 09/11 (420 le 07/11), 10-12/11 pas encore remontés.",
+  "note": "Relevé du 15/11 : aucun nouveau Reel IG depuis le 07/11 (vidIQ à reconnecter). w03 231 vues 34,2 % >3 s, w01 215 vues 19,4 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 1 708 vues du 01 au 12/11 (387 le 10/11, 169 le 11/11, 124 le 12/11) ; 13-15/11 pas encore remontés.",
   "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
   "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
  },
  "veille": {
-  "date": "2026-11-12",
+  "date": "2026-11-15",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : connecteur vidIQ à reconnecter dans Claude"
  },
  "metricool_quota": {
   "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
-  "2026-11": "14/20 au 12/11 : non brouillon = IG 06 et 07/11 (publiés), YT 01 à 08/11 (publiés), YT m1109 10/11 et m1110 11/11 (publiés), YT m1111 12/11 18:00 et YT m1112 13/11 18:00 (pilote). Le reste de novembre est en brouillon (ne compte pas)."
+  "2026-11": "14/20 au 15/11 : non brouillon = IG 06 et 07/11, YT 01 à 08/11, YT 10, 11, 12 et 13/11 (tous publiés). Rien de programmé du 14 au 30/11 hors brouillons. Gardé pour les vidéos du menu (6 restantes)."
  }
 }

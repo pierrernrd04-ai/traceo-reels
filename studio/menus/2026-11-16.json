@@ -1,0 +1,371 @@
+{
+ "date": "2026-11-16",
+ "genere": "2026-11-15T17:30:00+01:00",
+ "note": "Sans choix de ta part avant 17 h 10, je prends le n°1. Instagram : le connecteur vidIQ doit être reconnecté dans Claude. YouTube : la vidéo choisie part le lendemain à 18:00 (quota Metricool de novembre : 14/20).",
+ "scripts": [
+  {
+   "id": "s01",
+   "rang": 1,
+   "titre": "Lundi, 18 h 30",
+   "mecanique": "Cold Open Demo (#18)",
+   "duree": 13,
+   "accroche": "Lundi, 18 h 30. Je règle 30 minutes. Regarde ma boucle sortir.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Lundi, 18 h 30. Je règle 30 minutes."
+    },
+    {
+     "t": "3–7 s",
+     "texte": "Regarde ma boucle sortir."
+    },
+    {
+     "t": "7–10 s",
+     "texte": "Depuis ma porte, par des rues que je n'ai jamais courues."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Retour au départ. Lien en bio."
+    }
+   ],
+   "legende": "Enregistre-le pour ton footing de ce soir.\n\nRègle une durée, de 10 min à 4 h : Traceo trace ton parcours de course à pied depuis chez toi en 10 secondes environ, et te ramène au départ. Ton running du lundi est prêt avant tes baskets.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Lundi 18 h 30 : je règle 30 minutes, regarde ma boucle de running sortir #running",
+   "pourquoi": "La démo d'une fonction reste le format à refaire (audit) : « Niveau 1/2 » tient 44,1 % de vues >3 s, contre 19,4 % pour w01.",
+   "note_accroche": 47.8
+  },
+  {
+   "id": "s02",
+   "rang": 2,
+   "titre": "4 raisons du lundi",
+   "mecanique": "Numbered With A Favourite (#11)",
+   "duree": 15,
+   "accroche": "4 raisons de courir ce lundi. La 4e se règle en 10 secondes.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "4 raisons de courir ce lundi."
+    },
+    {
+     "t": "3–6 s",
+     "texte": "1. Tu lances ta semaine. 2. Le canapé t'attendra."
+    },
+    {
+     "t": "6–9 s",
+     "texte": "3. Ta playlist est déjà prête."
+    },
+    {
+     "t": "9–12 s",
+     "texte": "4. Une rue que tu n'as jamais courue."
+    },
+    {
+     "t": "12–15 s",
+     "texte": "Celle-là sort en 10 secondes. Lien en bio."
+    }
+   ],
+   "legende": "Dis en commentaire laquelle te fait sortir ce soir.\n\nLa 4e, c'est Traceo : un parcours de course à pied depuis chez toi, par des rues que tu n'as jamais courues, tracé en 10 secondes environ. Ton footing du lundi commence à ta porte.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "4 raisons de courir ce lundi : la 4e se règle en 10 secondes #running",
+   "pourquoi": "Le classement a déjà tenu sur Instagram : la tier list w03 garde 34,2 % de vues >3 s (231 vues), le meilleur des Reels du registre parus.",
+   "note_accroche": 48.0
+  },
+  {
+   "id": "s03",
+   "rang": 3,
+   "titre": "Le parc à gauche",
+   "mecanique": "Mid-Sentence Start (#21)",
+   "duree": 13,
+   "accroche": "…sauf que ce lundi, tes 6 km partent à droite du parc. Regarde.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "…sauf que ce lundi, tes 6 km partent à droite du parc."
+    },
+    {
+     "t": "3–7 s",
+     "texte": "Regarde."
+    },
+    {
+     "t": "7–10 s",
+     "texte": "Des rues que tu n'as jamais courues. Tracées en 10 secondes."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Et tu rentres chez toi. Lien en bio."
+    }
+   ],
+   "legende": "Envoie-le à celui qui tourne toujours autour du même parc.\n\nRègle 6 km : Traceo trace un parcours de course à pied depuis chez toi, par des rues nouvelles, et te ramène au départ. Ton footing change de côté. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Ce lundi, tes 6 km de running partent à droite du parc #running",
+   "pourquoi": "Le début en pleine phrase force la suite ; le même parc est l'image qui revient dans les Shorts qui ont le plus tourné (420 vues YouTube le 07/11, jour des « 4 niveaux »).",
+   "note_accroche": 45.6
+  },
+  {
+   "id": "s04",
+   "rang": 4,
+   "titre": "Tapis contre rues",
+   "mecanique": "Head To Head (#17)",
+   "duree": 14,
+   "accroche": "Tapis de salle contre 5 km de rues neuves. Même lundi soir.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Tapis de salle contre 5 km de rues neuves."
+    },
+    {
+     "t": "3–6 s",
+     "texte": "Même lundi soir."
+    },
+    {
+     "t": "6–10 s",
+     "texte": "À gauche : le même mur. À droite : une boucle depuis ta porte."
+    },
+    {
+     "t": "10–14 s",
+     "texte": "Tracée en 10 secondes. Tu prends lequel ?"
+    }
+   ],
+   "legende": "Commente TAPIS ou RUES.\n\nPas envie du même mur ce soir ? Traceo trace un parcours de course à pied de 5 km depuis chez toi, par des rues que tu n'as jamais courues. Même effort, autre sortie de running.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Tapis de salle contre 5 km de rues neuves : tu cours lequel ? #running",
+   "pourquoi": "Le face-à-face appelle un commentaire, le levier le moins utilisé du registre (0 commentaire sur w01 et w03).",
+   "note_accroche": 42.7
+  },
+  {
+   "id": "s05",
+   "rang": 5,
+   "titre": "3 villes, 1 lundi",
+   "mecanique": "The Callout (#14)",
+   "duree": 13,
+   "accroche": "Toulouse, Nantes, Dijon : ta boucle de 8 km du lundi sort en 10 secondes.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Toulouse, Nantes, Dijon."
+    },
+    {
+     "t": "3–7 s",
+     "texte": "Ta boucle de 8 km du lundi sort en 10 secondes."
+    },
+    {
+     "t": "7–10 s",
+     "texte": "Partout en France, Corse et outre-mer compris."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Dans ton navigateur. Lien en bio."
+    }
+   ],
+   "legende": "Commente ta ville.\n\nTraceo trace ton parcours de course à pied partout en France, Corse et outre-mer compris : 8 km depuis chez toi, sans appli à télécharger. Ton running du lundi part de ta porte. (Illustration)\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Toulouse, Nantes, Dijon : ta boucle de running de 8 km en 10 secondes #running",
+   "pourquoi": "Les villes nommées font commenter ; le Short « Dis-moi ta ville » est paru le 04/11 (149 vues YouTube ce jour-là).",
+   "note_accroche": 42.9
+  },
+  {
+   "id": "s06",
+   "rang": 6,
+   "titre": "Reprise en 20 min",
+   "mecanique": "Wrong Way, Right Way (#7)",
+   "duree": 13,
+   "accroche": "Tu reprends lundi par 15 km ? Pas ta faute. Règle 20 minutes, regarde.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Tu reprends lundi par 15 km ?"
+    },
+    {
+     "t": "3–6 s",
+     "texte": "Pas ta faute. Règle 20 minutes."
+    },
+    {
+     "t": "6–10 s",
+     "texte": "Ta boucle sort en 10 secondes, depuis ta porte."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Et elle te ramène chez toi. Lien en bio."
+    }
+   ],
+   "legende": "Enregistre-le pour ta prochaine reprise.\n\nPas besoin de partir long : règle une durée, de 10 min à 4 h. Traceo trace ton parcours de course à pied depuis chez toi et te ramène au départ. Un footing court, des rues neuves.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Reprise du lundi : règle 20 minutes, pas 15 km #running",
+   "pourquoi": "Le réglage en minutes est une vraie fonction peu montrée sur Instagram ; m1029 « 40 minutes » attend encore en stock.",
+   "note_accroche": 42.9
+  },
+  {
+   "id": "s07",
+   "rang": 7,
+   "titre": "La flemme du lundi",
+   "mecanique": "If This, Then Watch (#10)",
+   "duree": 12,
+   "accroche": "Lundi, la flemme ? Ta boucle de 3 km sort en 10 secondes, regarde.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Lundi, la flemme ?"
+    },
+    {
+     "t": "3–6 s",
+     "texte": "Ta boucle de 3 km sort en 10 secondes."
+    },
+    {
+     "t": "6–9 s",
+     "texte": "Regarde : départ de ta porte, retour à ta porte."
+    },
+    {
+     "t": "9–12 s",
+     "texte": "3 km. Pas d'excuse. Lien en bio."
+    }
+   ],
+   "legende": "Envoie-le à ton pote qui a la flemme le lundi.\n\nRègle 3 km : Traceo trace un petit parcours de course à pied depuis chez toi, par des rues nouvelles, et te ramène au départ. Le plus dur, c'est de lacer les baskets.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Lundi, la flemme ? Ta boucle de running de 3 km en 10 secondes #running",
+   "pourquoi": "L'humour complice est l'autre format à refaire (audit) ; le Short des excuses du lundi a coïncidé avec 387 vues YouTube le 10/11.",
+   "note_accroche": 44.2
+  },
+  {
+   "id": "s08",
+   "rang": 8,
+   "titre": "Avant 19 h",
+   "mecanique": "The Deadline (#19)",
+   "duree": 14,
+   "accroche": "Ta sortie du lundi change le 16 novembre : 6 km de rues neuves avant 19 h.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Ta sortie du lundi change le 16 novembre."
+    },
+    {
+     "t": "3–7 s",
+     "texte": "6 km de rues neuves, avant 19 h."
+    },
+    {
+     "t": "7–11 s",
+     "texte": "Tracés en 10 secondes, depuis ta porte."
+    },
+    {
+     "t": "11–14 s",
+     "texte": "Ce soir, pas lundi prochain. Lien en bio."
+    }
+   ],
+   "legende": "Trace ta boucle gratuite : lien en bio.\n\nCe lundi, change de parcours de course à pied : Traceo trace 6 km depuis chez toi, par des rues que tu n'as jamais courues, et te ramène au départ. Sans compte pour ta première sortie.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Lundi 16 novembre : 6 km de rues neuves avant 19 h #running",
+   "pourquoi": "La date du jour a porté les Shorts de fête : « Le 11 novembre » a coïncidé avec 169 vues YouTube le 11/11.",
+   "note_accroche": 40.3
+  },
+  {
+   "id": "s09",
+   "rang": 9,
+   "titre": "Les lundis se ressemblent",
+   "mecanique": "Contrarian Flip (#22)",
+   "duree": 13,
+   "accroche": "Les lundis se suivent et se ressemblent. Pas tes boucles de 6 km.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Les lundis se suivent et se ressemblent."
+    },
+    {
+     "t": "3–6 s",
+     "texte": "Pas tes boucles de 6 km."
+    },
+    {
+     "t": "6–10 s",
+     "texte": "Traceo se souvient des rues qu'il t'a déjà proposées."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Lundi prochain, il cherche ailleurs. Lien en bio."
+    }
+   ],
+   "legende": "Enregistre-le pour lundi prochain.\n\nTraceo se souvient des rues qu'il t'a déjà proposées : chaque parcours de course à pied part de chez toi et passe ailleurs. Ton footing du lundi ne se répète plus.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Les lundis se ressemblent, pas tes boucles de running #running",
+   "pourquoi": "Le proverbe retourné est neuf pour un lundi ; il montre la mémoire des rues, la fonction de « Demain, pas ici » (Short du 06/11).",
+   "note_accroche": 40.6
+  },
+  {
+   "id": "s10",
+   "rang": 10,
+   "titre": "Pas de motivation",
+   "mecanique": "Permission (#20)",
+   "duree": 13,
+   "accroche": "Tu n'as pas besoin de motivation lundi. Juste de 5 km de rues neuves.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Tu n'as pas besoin de motivation lundi."
+    },
+    {
+     "t": "3–6 s",
+     "texte": "Juste de 5 km de rues neuves."
+    },
+    {
+     "t": "6–10 s",
+     "texte": "Tracés en 10 secondes, depuis chez toi."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "La curiosité fait le reste. Lien en bio."
+    }
+   ],
+   "legende": "Envoie-le à quelqu'un qui attend la motivation.\n\nUn parcours de course à pied de 5 km par des rues que tu n'as jamais courues, depuis chez toi : Traceo le trace en 10 secondes environ. Ton footing du lundi, sans te forcer.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "Pas besoin de motivation lundi : juste 5 km de rues neuves #running",
+   "pourquoi": "Ton simple et complice, dans la ligne de ce que l'audit dit de refaire ; aucune vidéo du registre ne l'a encore tenté.",
+   "note_accroche": 39.3
+  },
+  {
+   "id": "s11",
+   "rang": 11,
+   "titre": "Tu cours où ?",
+   "mecanique": "The Verbatim Question (#16)",
+   "duree": 13,
+   "accroche": "« Tu cours où ce soir ? » 7 km par des rues où je ne suis jamais passé.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "« Tu cours où ce soir ? »"
+    },
+    {
+     "t": "3–7 s",
+     "texte": "7 km par des rues où je ne suis jamais passé."
+    },
+    {
+     "t": "7–10 s",
+     "texte": "Tracés en 10 secondes, depuis ma porte."
+    },
+    {
+     "t": "10–13 s",
+     "texte": "Et retour chez moi. Lien en bio."
+    }
+   ],
+   "legende": "Dis en commentaire où tu cours ce soir.\n\nRègle 7 km : Traceo trace ton parcours de course à pied depuis chez toi, par des rues que tu n'as jamais courues, et te ramène au départ. Ton running du lundi a une réponse.\n\n#running #courseapied #footing #parcoursrunning",
+   "titre_youtube": "« Tu cours où ce soir ? » 7 km de rues jamais courues #running",
+   "pourquoi": "La question appelle une réponse en commentaire ; aucun Reel paru n'a encore de commentaire.",
+   "note_accroche": 37.3
+  },
+  {
+   "id": "s12",
+   "rang": 12,
+   "titre": "Le bouton du lundi",
+   "mecanique": "The Reveal (#24)",
+   "duree": 14,
+   "accroche": "Voici le bouton qui prévient les coureurs à moins de 5 km ce lundi soir.",
+   "ecrans": [
+    {
+     "t": "0–3 s",
+     "texte": "Voici le bouton « Je pars courir »."
+    },
+    {
+     "t": "3–7 s",
+     "texte": "Il prévient les coureurs à moins de 5 km."
+    },
+    {
+     "t": "7–11 s",
+     "texte": "Positions arrondies. Mode invisible si tu veux courir seul."
+    },
+    {
+     "t": "11–14 s",
+     "texte": "Avec Traceo Premium. Lien en bio."
+    }
+   ],
+   "legende": "Envoie-le à ton partenaire de footing.\n\nAvec Traceo Premium, le bouton « Je pars courir » prévient les coureurs à moins de 5 km : positions arrondies, mode invisible et messages. Premium : 4,99 € pour 31 jours, sans abonnement.\n\n#running #courseapied #footing #partenairedecourse",
+   "titre_youtube": "Le bouton qui prévient les coureurs à moins de 5 km #running",
+   "pourquoi": "La fonction sociale a lancé la chaîne YouTube (Short du 01/11) ; elle n'est jamais passée sur Instagram.",
+   "note_accroche": 35.0
+  }
+ ]
+}
