@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15",
+ "maj": "2026-11-16",
  "videos": [
   {
    "id": "v01-meme-endroit",
@@ -623,6 +623,27 @@
    "pinterest": null,
    "resultats": {},
    "instagram_note": "Non publié : connecteur vidIQ à reconnecter (en tête du stock)."
+  },
+  {
+   "id": "m1116-lundi-18h30",
+   "fichier": "traceo-m1116-lundi-18h30.mp4",
+   "url": "https://raw.githubusercontent.com/pierrernrd04-ai/traceo-reels/main/traceo-m1116-lundi-18h30.mp4",
+   "angle": "Menu du 16/11, s01 (rang 1, aucun choix de Pierre) : « Lundi, 18 h 30. Je règle 30 minutes. Regarde ma boucle sortir. » (démo à froid, compteur 30 min, carte : la boucle sort depuis ma porte, retour au départ)",
+   "menu": "2026-11-16/s01",
+   "format": "1080x1920, 13 s, moteur short-editing, Carlito Bold, papier bleu crépuscule #1E2A44, encre crème #F4EFE6, accent orange #F08A4B, composant HTML carte-1830 (durée 30 min, boucle qui sort, coureur, retour au départ), lit « dub » (généré ce jour)",
+   "accroche_note": 47.8,
+   "accroche_retenue": "Lundi, 18 h 30. Je règle 30 minutes. Regarde ma boucle sortir. (5 variantes testées, celle du menu reste la meilleure)",
+   "legende_instagram": "Enregistre-le pour ton footing de ce soir.\n\nRègle une durée, de 10 min à 4 h : Traceo trace ton parcours de course à pied depuis chez toi en 10 secondes environ, et te ramène au départ. Ton running du lundi est prêt avant tes baskets.\n\n#running #courseapied #footing #parcoursrunning",
+   "instagram": null,
+   "youtube": {
+    "date": "2026-11-17 18:00",
+    "metricool_id": 430309356,
+    "titre": "Lundi 18 h 30 : je règle 30 minutes, regarde ma boucle de running sortir #running",
+    "statut": "programmé (pilote)"
+   },
+   "pinterest": null,
+   "resultats": {},
+   "instagram_note": "Non publié : connecteur vidIQ à reconnecter (en tête du stock)."
   }
  ],
  "journal": [
@@ -1045,10 +1066,42 @@
    "crees": 0,
    "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
    "menu_demain": "studio/menus/2026-11-16.json (12 scripts)"
+  },
+  {
+   "date": "2026-11-16 (pilote 17 h 15)",
+   "mesure": "IG 28 j : 2 Reels dans la fenêtre (06 et 07/11), aucun nouveau ; w03 232 vues 34,0 % >3 s, w01 216 vues 19,3 % >3 s, 0 partage. YT (YTEV02) : 2 026 vues du 01 au 13/11 (318 le 13/11, jour du Short « Vendredi 13 »). Semaine du 09/11 : 0 vue IG nouvelle (aucun Reel paru), 1 012 vues YT du 09 au 13/11 (14-15/11 pas encore remontés).",
+   "alerte": "vidIQ toujours à reconnecter (needs_reconnect) : aucune publication Instagram possible depuis le 07/11.",
+   "menu": "pas de choix de Pierre → rang 1 s01 « Lundi, 18 h 30 » → traceo-m1116-lundi-18h30.mp4 ; Instagram non publié (vidIQ) ; YouTube programmé 17/11 18:00",
+   "garder": "aucun (pas de choix)",
+   "crees": 1,
+   "stock_ig": [
+    "m1116-lundi-18h30",
+    "m1112-vendredi-13",
+    "m1111-3-niveaux-jeudi",
+    "m1110-11-novembre",
+    "m1109-excuses-lundi",
+    "m1102-tour-du-lundi",
+    "m1101-5km-ou-30min",
+    "m1031-je-tape-2-km",
+    "m1030-chauffe-10s",
+    "m1029-40-minutes",
+    "m1028-le-vrai-plus-dur",
+    "m1027-une-autre-rue",
+    "m1024-mode-nuit",
+    "m1021-meme-6-km",
+    "m1020-le-diamant",
+    "m1019-demain-pas-ici",
+    "x01-meme-tour",
+    "w3-01-niveaux"
+   ],
+   "reperage": "Metricool : aucun concurrent configuré (IGCR vide) ; vidIQ : connecteur à reconnecter",
+   "ig_audit": "Rien de neuf : 0 Reel paru depuis le 07/11. w03 (tier list, humour) garde 34 % >3 s contre 19 % pour w01 : refaire humour complice + fonction montrée.",
+   "ig_plan": "Semaine du 16/11 : 1 Short YouTube par jour possible avec le quota restant (5 après celui du 17/11) ; Instagram à 0 tant que vidIQ n'est pas reconnecté.",
+   "menu_demain": "studio/menus/2026-11-17.json (12 scripts)"
   }
  ],
  "analyse": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "score": "(partages + 0,8 × enreg. + 0,5 × comm.) / 1000 comptes atteints, départagé par le taux >3 s",
   "top": [
    {
@@ -1090,17 +1143,18 @@
     ">3s": 15.8
    }
   ],
-  "note": "Relevé du 15/11 : aucun nouveau Reel IG depuis le 07/11 (vidIQ à reconnecter). w03 231 vues 34,2 % >3 s, w01 215 vues 19,4 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 1 708 vues du 01 au 12/11 (387 le 10/11, 169 le 11/11, 124 le 12/11) ; 13-15/11 pas encore remontés.",
+  "note": "Relevé du 16/11 : aucun nouveau Reel IG depuis le 07/11 (vidIQ à reconnecter). w03 232 vues 34,0 % >3 s, w01 216 vues 19,3 % >3 s, score 0 tous deux. Top et flop inchangés. YouTube (YTEV02) : 2 026 vues du 01 au 13/11 (318 le 13/11) ; 14-16/11 pas encore remontés.",
   "audit_lundi_26_10": "ig-audit : 26 Reels du 09 au 17/10, médiane ≈ 266 vues. Le taux >3 s sépare top et flop (gaming 44,6 %, « 10 000 pas » 50 %, « Graphique » 47,3 % contre 12 à 16 % pour « Courir le soir », « Météo », « Départ : canapé »). Refaire : humour complice et démonstration d'une fonction. Arrêter : ambiance/voyage sans fonction montrée. n=26, signaux faibles (0 à 2 partages par Reel).",
-  "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein)."
+  "audit_lundi_02_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 17/10, 26 Reels du 09 au 17/10). Conclusions du 26/10 maintenues : refaire humour complice et démo d'une fonction ; arrêter ambiance sans fonction montrée. Blocage principal : aucune publication Instagram possible (vidIQ absent, Metricool plein).",
+  "audit_lundi_16_11": "ig-audit : rien de neuf à auditer (0 Reel paru depuis le 07/11). Conclusions du 26/10 maintenues. YouTube porte seul la croissance : 2 026 vues en 13 jours. Blocage principal : publication Instagram impossible (vidIQ à reconnecter)."
  },
  "veille": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "metricool": "aucun concurrent Instagram configuré (IGCR vide)",
   "vidiq": "sautée : connecteur vidIQ à reconnecter dans Claude"
  },
  "metricool_quota": {
   "2026-10": "dépassé : Metricool refuse les publications (« account limit reached », v03 du 21/10). Ne rien ajouter.",
-  "2026-11": "14/20 au 15/11 : non brouillon = IG 06 et 07/11, YT 01 à 08/11, YT 10, 11, 12 et 13/11 (tous publiés). Rien de programmé du 14 au 30/11 hors brouillons. Gardé pour les vidéos du menu (6 restantes)."
+  "2026-11": "15/20 au 16/11 : non brouillon = IG 06 et 07/11, YT 01 à 08/11, YT 10, 11, 12 et 13/11 (publiés), YT 17/11 m1116 (programmé). Gardé pour les vidéos du menu (5 restantes)."
  }
 }
